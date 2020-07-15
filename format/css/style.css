@@ -1,0 +1,1263 @@
+/* variable */
+/*generale*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+body {
+  box-sizing: border-box; }
+
+/*header*/
+header .chateau-mere img {
+  width: 100%;
+  margin-top: -90px; }
+header .header {
+  width: 80%;
+  height: 30px;
+  position: absolute;
+  top: -3px;
+  left: 128px;
+  position: fixed;
+  z-index: 2; }
+  header .header .div_logo .logo {
+    float: right;
+    margin-top: 10px;
+    display: none; }
+  header .header h1 {
+    font-family: 'Claytonia';
+    font-size: 40px;
+    float: left;
+    color: #2D7C92; }
+  header .header nav {
+    float: right;
+    margin: 15px; }
+    header .header nav a {
+      padding: 5px;
+      font-family: 'Reem Kufi';
+      color: black;
+      text-decoration: none; }
+    header .header nav .active {
+      padding: 5px;
+      font-family: 'Reem Kufi';
+      color: #2D7C92;
+      text-decoration: none; }
+
+.bg-image {
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+  width: 100%;
+  height: 591px;
+  margin-top: -10px; }
+  .bg-image .image {
+    width: 100%;
+    margin-top: 452px; }
+  .bg-image .image1 {
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1; }
+  .bg-image .img-header {
+    width: 20%;
+    margin: auto; }
+    .bg-image .img-header .image2 {
+      position: absolute;
+      top: 327px; }
+
+/*responsive design */
+@media screen and (max-width: 1030px) {
+  header .chateau-mere img {
+    width: 100%;
+    margin-top: -90px; }
+  header .header {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    top: -3px;
+    left: 128px;
+    position: fixed; }
+    header .header h1 {
+      font-family: 'Claytonia';
+      font-size: 27px;
+      float: left;
+      color: #2D7C92; }
+    header .header .div_logo .logo {
+      float: right;
+      margin-top: 10px;
+      display: none; }
+    header .header .div_logo #btn_close {
+      display: none; }
+    header .header nav {
+      width: 35%;
+      /* position: absolute; */
+      right: -66px;
+      /* top: -2px; */
+      text-align: center;
+      margin: 6px 0px; }
+      header .header nav a {
+        padding: 5px;
+        font-family: 'Reem Kufi';
+        color: black;
+        text-decoration: none; }
+
+  .bg-image {
+    background-image: url("../img/bg-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 591px;
+    margin-top: -10px; }
+    .bg-image .image {
+      width: 100%;
+      margin-top: 425px; }
+    .bg-image .image1 {
+      width: 100%;
+      margin-top: 10px; }
+    .bg-image .img-header {
+      width: 20%;
+      margin: auto; }
+      .bg-image .img-header .image2 {
+        position: absolute;
+        top: 327px;
+        display: none; } }
+@media screen and (max-width: 750px) {
+  header .chateau-mere img {
+    width: 100%;
+    margin-top: -90px; }
+  header .header {
+    width: 74%;
+    height: 45px;
+    position: absolute;
+    top: -3px;
+    left: 52px;
+    position: fixed;
+    z-index: 2; }
+    header .header h1 {
+      font-family: 'Claytonia';
+      font-size: 17px;
+      float: left;
+      color: #2D7C92; }
+    header .header .div_logo .logo {
+      float: right;
+      margin-top: 5px;
+      display: block;
+      width: 12px; }
+    header .header .div_logo #btn_close {
+      display: none; }
+    header .header nav {
+      background-color: white;
+      width: 33%;
+      position: absolute;
+      right: -66px;
+      top: 13px;
+      text-align: center;
+      float: right;
+      margin: 3px 30px;
+      display: none; }
+      header .header nav a {
+        padding: 5px;
+        font-family: 'Reem Kufi';
+        color: black;
+        text-decoration: none;
+        display: block; }
+
+  .bg-image {
+    background-image: url("../img/bg-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 591px;
+    margin-top: -10px; }
+    .bg-image .image {
+      width: 100%;
+      margin-top: 485px; }
+    .bg-image .image1 {
+      width: 100%;
+      margin-top: 10px; }
+    .bg-image .img-header {
+      width: 20%;
+      margin: auto; }
+      .bg-image .img-header .image2 {
+        position: absolute;
+        top: 327px;
+        display: none; } }
+/*section */
+main {
+  /*section galery */
+  /*Learn More */
+  /*Safi-video*/
+  /*contact*/ }
+  main .Welcom-safi {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px; }
+    main .Welcom-safi h1 {
+      color: #29819A;
+      font-family: "Reem Kufi"; }
+    main .Welcom-safi .title h1 {
+      padding: 20px;
+      font-size: calc(100px * 2);
+      font-family: "Claytonia Regular";
+      color: #674635; }
+    main .Welcom-safi p {
+      justify-content: center;
+      width: 37%;
+      margin: auto;
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      padding-top: 10px;
+      font-size: 17px;
+      line-height: 1.3; }
+  main .marg {
+    margin-top: 100px; }
+  main .Galery-Safi {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    margin: auto; }
+    main .Galery-Safi .Galery-inf {
+      width: 40%; }
+      main .Galery-Safi .Galery-inf .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid;
+        margin: 20px 0 20px 0; }
+      main .Galery-Safi .Galery-inf p {
+        width: 90%; }
+      main .Galery-Safi .Galery-inf h2 {
+        color: #29819A;
+        font-family: "Reem Kufi"; }
+    main .Galery-Safi .section {
+      margin-top: 30px;
+      width: 80%;
+      display: flex;
+      margin: auto; }
+      main .Galery-Safi .section .Galery-img {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; }
+        main .Galery-Safi .section .Galery-img .image {
+          width: 90%;
+          height: 400px;
+          transition: 1s cubic-bezier(0.5, 0, 0, 1); }
+          main .Galery-Safi .section .Galery-img .image:hover {
+            transform: scale(1.2);
+            transition: 1s cubic-bezier(0.5, 0, 0, 1); }
+  main .reveal {
+    opacity: 0;
+    transform: translateY(-30px); }
+  main .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(0.5, 0, 0, 1); }
+  main .reveal-image {
+    width: 80%; }
+  main .city-safi {
+    text-align: center; }
+    main .city-safi p {
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      padding-top: 10px;
+      font-size: 15px;
+      line-height: 1.5;
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    main .city-safi h2 {
+      color: #29819A;
+      font-family: 'Reem Kufi'; }
+    main .city-safi .border {
+      width: 50px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid !important;
+      margin: 10px  auto;
+      text-align: center; }
+  main .Learn-More {
+    text-align: center; }
+    main .Learn-More h2 {
+      font-family: "Reem Kufi";
+      color: #29819A; }
+    main .Learn-More .border {
+      width: 50px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid !important;
+      margin: 10px  auto;
+      text-align: center; }
+    main .Learn-More .cards {
+      display: flex;
+      width: 80%;
+      margin: auto;
+      justify-content: space-around; }
+      main .Learn-More .cards .cart {
+        width: 23%;
+        height: 454px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #FFFFFF; }
+        main .Learn-More .cards .cart .cart-image {
+          width: 100%;
+          height: 50%;
+          background-image: url("../img/image2-1.png");
+          background-position: center;
+          background-size: cover; }
+          main .Learn-More .cards .cart .cart-image .icon-player {
+            width: 20%;
+            margin-top: 70px; }
+        main .Learn-More .cards .cart .cart-body h3 {
+          margin-top: 10px;
+          font-family: "Reem Kufi";
+          color: #674635; }
+        main .Learn-More .cards .cart input[type="submit"] {
+          width: 49%;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; }
+      main .Learn-More .cards .cart-2 {
+        width: 23%;
+        height: 454px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #FFFFFF; }
+        main .Learn-More .cards .cart-2 .cart-image {
+          width: 100%;
+          height: 50%;
+          background-image: url("../img/image2-2.png");
+          background-position: center;
+          background-size: cover; }
+          main .Learn-More .cards .cart-2 .cart-image .icon-player {
+            width: 20%;
+            margin-top: 70px; }
+        main .Learn-More .cards .cart-2 .cart-body h3 {
+          margin-top: 10px;
+          font-family: "Reem Kufi";
+          color: #674635; }
+        main .Learn-More .cards .cart-2 input[type="submit"] {
+          width: 49%;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; }
+      main .Learn-More .cards .cart-3 {
+        width: 23%;
+        height: 454px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #FFFFFF; }
+        main .Learn-More .cards .cart-3 .cart-image {
+          width: 100%;
+          height: 50%;
+          background-image: url("../img/pottery.png");
+          background-position: center;
+          background-size: cover; }
+          main .Learn-More .cards .cart-3 .cart-image .icon-player {
+            width: 20%;
+            margin-top: 70px; }
+        main .Learn-More .cards .cart-3 .cart-body h3 {
+          margin-top: 10px;
+          font-family: "Reem Kufi";
+          color: #674635; }
+        main .Learn-More .cards .cart-3 input[type="submit"] {
+          width: 49%;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; }
+  main section h1 {
+    text-align: center;
+    font-family: "Claytonia Regular";
+    color: #29819A;
+    font-size: 57px; }
+  main section .bg-chateau {
+    background-image: url("../img/chateau_mere.png");
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 606px;
+    margin: auto; }
+  main section .icon-player-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 104px; }
+  main section .icon-player-2 {
+    cursor: pointer; }
+  main section #img-bg-2 {
+    width: 100%;
+    height: 100%; }
+  main section .bg-image-slider {
+    width: 50%;
+    margin: auto; }
+  main section .Safi-video {
+    width: 80%;
+    margin: auto;
+    display: flex; }
+    main section .Safi-video .bg-image {
+      width: 591px;
+      height: 437px;
+      background-image: url("../img/chateau_mere.png");
+      background-position: center;
+      background-size: cover; }
+      main section .Safi-video .bg-image .icon-player {
+        width: 13%;
+        /* margin-top: 121px; */
+        /* text-align: center; */
+        margin: 197px auto;
+        display: block; }
+    main section .Safi-video .text {
+      width: 50%;
+      margin: 20px; }
+      main section .Safi-video .text h3 {
+        font-family: "Claytonia Regular";
+        font-size: 70px;
+        color: #674635; }
+      main section .Safi-video .text .btn {
+        float: right;
+        margin-top: 88px; }
+        main section .Safi-video .text .btn input {
+          width: 46%;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; }
+  main section .title {
+    text-align: center;
+    font-family: "Reem Kufi";
+    color: #29819A; }
+  main section .border {
+    width: 50px;
+    color: #29819A;
+    background-color: #29819A;
+    border: 1px solid !important;
+    margin: 33px  auto;
+    text-align: center; }
+  main section .Contact {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around; }
+    main section .Contact .bg-image {
+      width: 40%;
+      height: 674px;
+      background-image: url("../img/tof.png");
+      background-position: center;
+      background-size: cover; }
+    main section .Contact form {
+      margin: -10px auto; }
+      main section .Contact form input[type="text"] {
+        width: 440px;
+        height: 50px;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      main section .Contact form .div-text {
+        margin-bottom: 20px; }
+      main section .Contact form .div-inpt {
+        margin: 0 0 29px 0; }
+      main section .Contact form textarea {
+        width: 440px;
+        height: 228px;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      main section .Contact form input[type="submit"] {
+        width: 35%;
+        float: right;
+        background-color: #29819A;
+        border: none;
+        padding: 5px 10px;
+        font-family: "Reem Kufi";
+        color: #FFFFFF;
+        margin: 2px auto; }
+
+/*audio video*/
+.icon-player:hover {
+  cursor: pointer; }
+
+.close {
+  color: white; }
+
+.bg-modal-2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 2430px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 2; }
+
+.modal-content2 {
+  text-align: center;
+  margin-top: 90px; }
+
+.modal-content2 .close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  color: white;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer; }
+
+.modal-content2 .taille {
+  width: 80px; }
+
+.modal-content2 .form input {
+  width: 60%;
+  display: block;
+  margin: 17px auto;
+  padding: 10px 10px; }
+
+.modal-content2 .form .erreur2 {
+  position: relative;
+  top: 7Opx;
+  top: -15px;
+  font-size: 12px;
+  text-align: left;
+  left: 97px; }
+
+.modal-content2 .form a {
+  color: white;
+  background-color: #05AAEA;
+  border: 1px solid #05AAEA;
+  padding: 10px 100px;
+  font-size: 17px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: -3px; }
+
+.modal-content2 .form a:hover {
+  cursor: pointer; }
+
+/*footer*/
+footer {
+  margin-top: 30px; }
+  footer .footer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between; }
+  footer .footer-social {
+    background-color: #29819A;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: #29819A;
+    padding: 35px; }
+    footer .footer-social img {
+      width: 40px; }
+    footer .footer-social .fab {
+      width: 40px;
+      height: 40px; }
+  footer .footer-menu {
+    margin: 30px 0; }
+    footer .footer-menu a {
+      padding: 10px 10px !important;
+      font-family: "Reem Kufi";
+      color: black; }
+    footer .footer-menu .logo {
+      font-size: 30px;
+      color: #29819A;
+      font-family: "Claytonia Regular"; }
+
+@media screen and (max-width: 1030px) {
+  footer {
+    margin-top: 30px; }
+    footer .footer {
+      display: block;
+      margin: auto;
+      width: 80%;
+      justify-content: space-between; }
+    footer .footer-social {
+      background-color: #29819A;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      height: 100px;
+      background-color: #29819A;
+      padding: 35px; }
+      footer .footer-social img {
+        width: 40px; }
+      footer .footer-social .fab {
+        width: 40px;
+        height: 40px; }
+    footer .footer-menu {
+      margin: 30px 0;
+      text-align: center; }
+      footer .footer-menu a {
+        padding: 10px 10px !important;
+        font-family: "Reem Kufi"; }
+      footer .footer-menu .logo {
+        font-size: 30px;
+        color: #29819A;
+        font-family: "Claytonia Regular"; } }
+/*responsive design */
+@media screen and (max-width: 1030px) {
+  main {
+    /*Learn More */
+    /*Safi-video*/
+    /*contact*/ }
+    main .Welcom-safi {
+      width: 100%;
+      text-align: center;
+      padding-top: 10px; }
+      main .Welcom-safi h1 {
+        color: #29819A;
+        font-family: "Reem Kufi";
+        font-size: 12px; }
+      main .Welcom-safi .title h1 {
+        padding: 20px;
+        font-size: 70px !important;
+        font-family: "Claytonia Regular";
+        color: #674635; }
+      main .Welcom-safi p {
+        justify-content: center;
+        width: 37%;
+        margin: auto;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-top: 10px;
+        font-size: 10px;
+        line-height: 1.3; }
+    main .marg {
+      margin-top: 100px; }
+    main .Galery-Safi {
+      margin-top: 30px;
+      width: 80%;
+      display: block;
+      margin: auto; }
+      main .Galery-Safi .Galery-inf {
+        width: 50%;
+        margin: auto;
+        text-align: center; }
+        main .Galery-Safi .Galery-inf .border {
+          width: 50px;
+          color: #29819A;
+          background-color: #29819A;
+          border: 1px solid;
+          /* margin: 20px 0 20px 0; */
+          margin: auto; }
+        main .Galery-Safi .Galery-inf p {
+          width: 90%;
+          font-size: 10px; }
+        main .Galery-Safi .Galery-inf h2 {
+          color: #29819A;
+          font-family: "Reem Kufi";
+          font-size: 12px; }
+      main .Galery-Safi .Galery-img {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: auto; }
+        main .Galery-Safi .Galery-img .image {
+          width: 90%;
+          height: 400px; }
+    main .city-safi {
+      text-align: center; }
+      main .city-safi p {
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 1.5;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 10px; }
+      main .city-safi h2 {
+        color: #29819A;
+        font-family: 'Reem Kufi';
+        font-size: 12px; }
+      main .city-safi .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid !important;
+        margin: 10px  auto;
+        text-align: center; }
+    main .Learn-More {
+      text-align: center; }
+      main .Learn-More h2 {
+        font-family: "Reem Kufi";
+        color: #29819A;
+        font-size: 12px; }
+      main .Learn-More .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid !important;
+        margin: 10px  auto;
+        text-align: center; }
+      main .Learn-More .cards {
+        display: block;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around; }
+        main .Learn-More .cards .cart {
+          width: 35%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/image2-1.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+        main .Learn-More .cards .cart-2 {
+          width: 35%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart-2 .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/image2-2.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart-2 .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart-2 .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart-2 .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart-2 input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+        main .Learn-More .cards .cart-3 {
+          width: 35%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart-3 .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/img1.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart-3 .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart-3 .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart-3 .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart-3 input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+    main section h1 {
+      text-align: center;
+      font-family: "Claytonia Regular";
+      color: #29819A;
+      font-size: 40px; }
+    main section .bg-chateau {
+      background-image: url("../img/chateau_mere.png");
+      background-position: center;
+      background-size: cover;
+      width: 80%;
+      height: 354px;
+      margin: auto; }
+    main section .icon-player-2 {
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      width: 44px; }
+    main section .icon-player-2:hover {
+      cursor: pointer; }
+    main section .Safi-video {
+      width: 80%;
+      margin: auto;
+      display: block; }
+      main section .Safi-video .bg-image {
+        width: 294px;
+        height: 208px;
+        background-image: url("../img/videochat.png");
+        background-position: center;
+        background-size: cover;
+        margin: auto; }
+        main section .Safi-video .bg-image .icon-player {
+          width: 7%;
+          /* margin-top: 121px; */
+          /* text-align: center; */
+          margin: 70px 0px 0px 108px;
+          display: block;
+          position: absolute; }
+      main section .Safi-video .text {
+        width: 50%;
+        margin: auto; }
+        main section .Safi-video .text h3 {
+          font-family: "Claytonia Regular";
+          font-size: 34px;
+          color: #674635;
+          text-align: center; }
+        main section .Safi-video .text p {
+          font-size: 10px;
+          margin: auto;
+          width: 80%;
+          text-align: center; }
+        main section .Safi-video .text .btn {
+          margin: auto;
+          width: 100%; }
+          main section .Safi-video .text .btn input {
+            width: 46%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+    main section .title {
+      text-align: center;
+      font-family: "Reem Kufi";
+      color: #29819A;
+      font-size: 12px; }
+    main section .border {
+      width: 52px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid !important;
+      margin: 5px auto;
+      text-align: center; }
+    main section .Contact {
+      margin-top: 10px;
+      width: 80%;
+      display: block;
+      margin: auto;
+      justify-content: space-around;
+      text-align: center; }
+      main section .Contact .bg-image {
+        width: 281px;
+        height: 320px;
+        background-image: url("../img/tof.png");
+        background-position: center;
+        background-size: cover;
+        margin: auto; }
+      main section .Contact form {
+        margin: 26px auto; }
+        main section .Contact form input[type="text"] {
+          width: 440px;
+          height: 50px;
+          border: none;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+        main section .Contact form .div-text {
+          margin-bottom: 20px; }
+        main section .Contact form .div-inpt {
+          margin: 0 0 29px 0; }
+        main section .Contact form textarea {
+          width: 440px;
+          height: 228px;
+          border: none;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+        main section .Contact form input[type="submit"] {
+          width: 35%;
+          float: initial;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; }
+
+  .bg-modal-2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2430px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 2; }
+
+  .modal-content2 {
+    text-align: center;
+    margin-top: 90px; }
+
+  .modal-content2 .close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    color: white;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer; }
+
+  .modal-content2 .taille {
+    width: 80px; }
+
+  .modal-content2 .form input {
+    width: 60%;
+    display: block;
+    margin: 17px auto;
+    padding: 10px 10px; }
+
+  .modal-content2 .form .erreur2 {
+    position: relative;
+    top: 7Opx;
+    top: -15px;
+    font-size: 12px;
+    text-align: left;
+    left: 97px; }
+
+  .modal-content2 .form a {
+    color: white;
+    background-color: #05AAEA;
+    border: 1px solid #05AAEA;
+    padding: 10px 100px;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -3px; }
+
+  .modal-content2 iframe {
+    width: 90%; }
+
+  .modal-content2 .form a:hover {
+    cursor: pointer; } }
+@media screen and (max-width: 545px) {
+  main {
+    /*Learn More */
+    /*Safi-video*/
+    /*contact*/ }
+    main .Welcom-safi {
+      width: 100%;
+      text-align: center;
+      padding-top: 10px; }
+      main .Welcom-safi h1 {
+        color: #29819A;
+        font-family: "Reem Kufi";
+        font-size: 12px; }
+      main .Welcom-safi .title h1 {
+        padding: 20px;
+        font-size: 70px !important;
+        font-family: "Claytonia Regular";
+        color: #674635; }
+      main .Welcom-safi p {
+        justify-content: center;
+        width: 37%;
+        margin: auto;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-top: 10px;
+        font-size: 10px;
+        line-height: 1.3; }
+    main .marg {
+      margin-top: 100px; }
+    main .Galery-Safi {
+      margin-top: 30px;
+      width: 80%;
+      display: block;
+      margin: auto; }
+      main .Galery-Safi .Galery-inf {
+        width: 50%;
+        margin: auto; }
+        main .Galery-Safi .Galery-inf .border {
+          width: 50px;
+          color: #29819A;
+          background-color: #29819A;
+          border: 1px solid;
+          /* margin: 20px 0 20px 0; */
+          margin: 10px auto; }
+        main .Galery-Safi .Galery-inf p {
+          width: 90%;
+          font-size: 10px; }
+        main .Galery-Safi .Galery-inf h2 {
+          color: #29819A;
+          font-family: "Reem Kufi";
+          font-size: 12px; }
+      main .Galery-Safi .section {
+        margin-top: 30px;
+        width: 80%;
+        display: block;
+        margin: auto;
+        overflow-x: auto; }
+        main .Galery-Safi .section .Galery-img {
+          display: flex;
+          width: 273%;
+          justify-content: space-between;
+          margin: auto; }
+          main .Galery-Safi .section .Galery-img .image {
+            width: 90%;
+            height: 453px; }
+    main .city-safi {
+      text-align: center; }
+      main .city-safi p {
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 1.5;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 10px; }
+      main .city-safi h2 {
+        color: #29819A;
+        font-family: 'Reem Kufi';
+        font-size: 12px; }
+      main .city-safi .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid !important;
+        margin: 10px  auto;
+        text-align: center; }
+    main .Learn-More {
+      text-align: center; }
+      main .Learn-More h2 {
+        font-family: "Reem Kufi";
+        color: #29819A;
+        font-size: 12px; }
+      main .Learn-More .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid !important;
+        margin: 10px  auto;
+        text-align: center; }
+      main .Learn-More .cards {
+        display: block;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around; }
+        main .Learn-More .cards .cart {
+          width: 80%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/image2-1.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+        main .Learn-More .cards .cart-2 {
+          width: 80%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart-2 .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/image2-2.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart-2 .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart-2 .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart-2 .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart-2 input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+        main .Learn-More .cards .cart-3 {
+          width: 80%;
+          height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: #FFFFFF;
+          margin: auto;
+          margin-bottom: 40px;
+          background-color: #FFFFFF; }
+          main .Learn-More .cards .cart-3 .cart-image {
+            width: 100%;
+            height: 50%;
+            background-image: url("../img/img1.png");
+            background-position: center;
+            background-size: cover; }
+            main .Learn-More .cards .cart-3 .cart-image .icon-player {
+              width: 20%;
+              margin-top: 70px; }
+          main .Learn-More .cards .cart-3 .cart-body h3 {
+            margin-top: 10px;
+            font-family: "Reem Kufi";
+            color: #674635;
+            font-size: 24px; }
+          main .Learn-More .cards .cart-3 .cart-body p {
+            font-size: 10px; }
+          main .Learn-More .cards .cart-3 input[type="submit"] {
+            width: 49%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+    main section .Safi-video {
+      width: 80%;
+      margin: auto;
+      display: block; }
+      main section .Safi-video .bg-image {
+        width: 235px;
+        height: 208px;
+        background-image: url("../img/videochat.png");
+        background-position: center;
+        background-size: cover;
+        margin: auto; }
+        main section .Safi-video .bg-image .icon-player {
+          width: 13%;
+          margin-top: 99px;
+          /* text-align: center; */
+          margin: 84px auto;
+          display: block;
+          position: absolute;
+          left: 44%; }
+      main section .Safi-video .text {
+        width: 50%;
+        margin: auto; }
+        main section .Safi-video .text h3 {
+          font-family: "Claytonia Regular";
+          font-size: 34px;
+          color: #674635;
+          text-align: center; }
+        main section .Safi-video .text p {
+          font-size: 10px;
+          margin: auto;
+          width: 100%;
+          text-align: center; }
+        main section .Safi-video .text .btn {
+          margin: auto;
+          width: 107%; }
+          main section .Safi-video .text .btn input {
+            width: 46%;
+            background-color: #29819A;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Reem Kufi";
+            color: #FFFFFF;
+            margin: 2px auto; }
+    main section .title {
+      text-align: center;
+      font-family: "Reem Kufi";
+      color: #29819A;
+      font-size: 12px; }
+    main section .border {
+      width: 52px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid !important;
+      margin: 5px auto;
+      text-align: center; }
+    main section .Contact {
+      margin-top: 10px;
+      width: 80%;
+      display: block;
+      margin: auto;
+      justify-content: space-around;
+      text-align: center; }
+      main section .Contact .bg-image {
+        width: 240px;
+        height: 320px;
+        background-image: url("../img/tof.png");
+        background-position: center;
+        background-size: cover;
+        margin: auto; }
+      main section .Contact form {
+        margin: 26px auto; }
+        main section .Contact form input[type="text"] {
+          width: 100%;
+          height: 50px;
+          border: none;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+        main section .Contact form .div-text {
+          margin-bottom: 20px; }
+        main section .Contact form .div-inpt {
+          margin: 0 0 29px 0; }
+        main section .Contact form textarea {
+          width: 100%;
+          height: 228px;
+          border: none;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+        main section .Contact form input[type="submit"] {
+          width: 35%;
+          float: initial;
+          background-color: #29819A;
+          border: none;
+          padding: 5px 10px;
+          font-family: "Reem Kufi";
+          color: #FFFFFF;
+          margin: 2px auto; } }
+
+/*# sourceMappingURL=style.css.map */

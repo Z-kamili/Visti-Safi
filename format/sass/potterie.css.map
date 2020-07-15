@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAI,AAEI,MAFE,CAEF,YAAY,CACZ;EACI,gBAAgB,EAAE,0CAA0C,CAAC,UAAU;EACvE,eAAe,EAAE,KAAK;EACtB,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAGhB",
+    "sources": [
+        "potterie.scss"
+    ],
+    "names": [],
+    "file": "potterie.css"
+}

@@ -1,0 +1,867 @@
+ .bg_potterie {
+    background-image: url("../img/Potterie_img/bg-potterie.png") !important;
+    background-size: cover;  
+    width: 100%;
+    height: 591px;
+}
+.discover{
+  color: white !important;
+}
+.bg-design1
+{
+  background-image: url("../img/Potterie_img/Potterie_img_whitetopbg.svg") !important;
+  background-size: cover; 
+  background-position: 50%; 
+  color:#fff;
+  width:100%;
+
+  height:200px;
+  font-size: 20px;
+  margin-top: -29px;
+ 
+}
+.bg-design2
+{
+  background-image: url("../img/Potterie_img/bg-design2.svg") !important;
+  background-size: cover; 
+  background-position: 50%; 
+  color:#fff;
+  width:100%;
+  margin-top: 300px;
+  height:200px;
+  font-size: 20px;
+}
+.bg-design2-blue
+{
+  background-image: url("../img/Potterie_img/bg-design2-blue.svg") !important;
+  background-size: cover; 
+  background-position: 50%; 
+  color:#fff;
+  width:100%;
+  height:400px;
+   
+
+}
+.bg-design3
+{
+  background-image: url("../img/Potterie_img/bg-design3.svg") !important;
+  background-size: cover; 
+  margin-top: -220px;
+  width:130px;
+  height:100px;
+   
+
+}
+.Next-destination
+{
+  background-image: url("../img/Potterie_img/next-destination.png") !important;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  
+ 
+
+}
+
+ /* section .Safi-video .text {
+  width: 50%;
+  margin: 20px; }
+   section .Safi-video .text h3 {
+    font-family: "Claytonia Regular";
+    font-size: 70px;
+    color: #674635; }
+   section .Safi-video .text .btn {
+    float: right;
+    margin-top: 88px; }
+     section .Safi-video .text .btn input {
+      width: 46%;
+      background-color: #29819A;
+      border: none;
+      padding: 5px 10px;
+      font-family: "Reem Kufi";
+      color: #FFFFFF;
+      margin: 2px auto; } */
+       section .Safi-video {
+        width: 80%;
+        margin:105px auto;
+        display: flex; }
+         section .Safi-video .bg-image {
+          width: 591px;
+          height: 437px;
+          background-image: url("../img/Potterie_img/hills-video.png");
+          background-position: center;
+          background-size: cover; }
+          main section .Safi-video .bg-image .icon-player {
+            width: 13%;
+            /* margin-top: 121px; */
+            /* text-align: center; */
+            margin: 197px auto;
+            display: block; }
+         section .Safi-video .text {
+          width: 50%;
+          margin: 20px; }
+           section .Safi-video .text h3 {
+            font-family: "Claytonia Regular";
+            font-size: 70px;
+            color: #029CC7; }
+           section .Safi-video .text .btn {
+            float: right;
+            margin-top: 88px; }
+             section .Safi-video .text .btn input {
+              width: 46%;
+              background-color: #29819A;
+              border: none;
+              padding: 5px 10px;
+              font-family: "Reem Kufi";
+              color: #FFFFFF;
+              margin: 2px auto; }
+
+.Next-destination h4
+{
+  color:#2D7C92;
+
+}
+.Next-destination h1
+{
+  color:#674635;
+  font-family: 'Claytonia Regular';
+  font-size: 85px;
+
+}
+.Next-destination button
+{
+  color:white;
+  border:none;
+  background-color: #29819A;
+  width:120px;
+  height:40px;
+
+}
+
+
+.tajin_section
+{
+  width: 100%;
+  margin: auto;
+  height:100%;
+  display: flex;
+   justify-content: center;
+
+}
+   .small-text
+{
+  color:#2D7C92 !important;
+  text-align: center;
+  font-size: 24px;
+}  
+.container-page .desc-text
+{
+  text-align: center;
+  margin-top: 40px;
+
+  
+}
+.container-page .big-text
+{
+  color:#9E6345;
+  text-align: center;
+  font-size: 75px;
+}
+.line
+{
+  margin:0;
+  width:40px;
+  height:2px;
+  background-color:#3B8499;
+ 
+  
+}
+.container-page-down--title
+{
+  color:#2D7C92;
+  font-size: 24px;
+}
+.container-page-down-des
+{
+  padding: 10px;
+}
+.container-page-down-des pre
+{
+  margin-top: 15px;
+
+}
+.container-page-down-img , .container-page-down
+{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.page-down-img1
+{
+  background-image: url("../img/Potterie_img/front-img1.png") !important;
+  width:220px;
+  height:320px;
+  background-size: cover;
+
+}
+.page-down-img2
+{
+  background-image: url("../img/Potterie_img/front-img2.png") !important;
+  width:220px;
+  height:320px;
+  background-size: cover;
+}
+.page-down-img3
+{
+  background-image: url("../img/Potterie_img/front-img3.png") !important;
+  width:220px;
+  height:320px;
+  background-size: cover;
+
+}
+.reveal{
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.reveal-visible{
+  opacity:1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
+.container-page-down-img div
+{
+    margin-left: 30px;
+}
+.page-down-down
+{
+  text-align: center;
+  border:1px solid gray;
+  width:220px;
+  font-size: 12px;
+}
+.page-down-down div
+{
+  width:25%;
+  margin:auto;
+}
+.page-down-down pre
+{
+  margin-top: 6px;
+
+}
+.container-hills
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  
+}
+.container-hills-video
+{
+  background-image: url("../img/Potterie_img/hills-video.png") !important;
+  width:400px;
+  height:320px;
+  background-size: cover;
+}
+.container-hills-des-text
+{
+  margin-top: 50px;
+}
+.white-space
+{
+  height:65px;
+  
+
+}
+.container-hills-des
+{
+  margin-left: 65px;
+}
+.container-hills-btn
+{
+  position: relative;
+  float:right;
+  display: flex;
+  
+  
+}
+.container-hills-btn button
+{
+  color:white;
+  border:none;
+  background-color: #29819A;
+  width:60px;
+}
+.white-width
+{
+  width:14px;
+}
+.container-hills-des-title
+{
+  color:#029CC7;
+  font-size: 65px;
+}
+.container-hills2
+{
+  display: flex;
+   width: 80%;
+  margin: auto;
+ 
+}
+.container-hills2v2
+{
+  display: flex;
+  width:80% !important;
+ margin: auto;
+
+}
+.container-hills2-des
+{
+  /* margin-left: 100px; */
+  margin-top: 49px;
+}
+.container-hills2-title
+{
+  color:#029CC7;
+  font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+}
+iframe{
+  border: 0;
+  /* margin-top: -11px; */
+  height: -webkit-fill-available;
+  /* width: 115%; */
+  margin: auto;
+}
+.Maps{
+     /* margin-right: 26px; */
+    /* margin-right: 26px; */
+    /* margin-left: -127px; */
+    position: absolute;
+    /* margin-top: -257px; */
+    width: 23%;
+    height: 257px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    /* margin: -257px 0px 0px; */
+    justify-content: center;
+    top: 92%;
+    left: 20%;
+    display: none;
+    z-index: 1;
+}
+.Maps-2{
+     /* margin-right: 26px; */
+    /* margin-right: 26px; */
+    /* margin-left: -127px; */
+    position: absolute;
+    /* margin-top: -257px; */
+    width: 23%;
+    height: 239px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    /* margin: -257px 0px 0px; */
+    justify-content: center;
+    top: 75%;
+    left: 20%;
+    display: none;
+}
+.Maps-2-iframe{
+  border: 0;
+  /* height: -webkit-fill-available; */
+  margin: 0px 0px 0px -126px;
+  /* height: 86px;*/
+}
+.Maps-3{
+  margin-right: 26px;
+    /* margin-right: 26px; */
+    /* margin-left: -127px; */
+    position: absolute;
+    /* margin-top: -257px; */
+    width: 23%;
+    height: 263px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    margin: 24px 0px 0px;
+    justify-content: center;
+    top: 31%;
+    left: 20%;
+    display: none;
+}
+.Maps-3-iframe{
+  border: 0;
+  /* margin-top: -11px; */
+  height: -webkit-fill-available;
+  /* width: 115%; */
+  margin: 0px auto -7px -180px;
+}
+.container-hills2-spot
+{
+  display: flex;
+  position: relative;
+   
+}
+.container-hills2-spot-groupe
+{
+  margin-left: 12px;
+}
+.straight_line
+{
+  display: flex;
+}
+.container-hills2-pic img
+{
+  /* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+  /* width: 572px;
+  height: 400px;
+  background-size: cover; */
+width: 100%;
+
+}
+/* .container-chaaba-pic
+{
+  background-image: url("../img/Potterie_img/chaaba.png") !important;
+  width: 618px;
+  height: 400px;
+  background-size: cover;
+} */
+.container-village-pic
+{
+  background-image: url("../img/Potterie_img/Pettrvilage.png") !important;
+ width:494px;
+  /* height:400px; */
+  background-size: cover;
+}
+
+.groupe_all
+{
+  background-image: url("../img/Potterie_img/Groupe_all.svg") !important;
+  background-size: cover;
+  width:100%;
+  height:420px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-chaaba-pic-image{
+  width: 625px;
+}
+.half-white-space
+{
+  height:30px;
+}
+ 
+  /*Description photos*/
+  #down1,#down3
+  {
+    display: none;
+  }
+   .Galery-Safi {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    margin: 60px auto; }
+     .Galery-Safi .Galery-inf {
+      width: 40%; }
+       .Galery-Safi .Galery-inf .border {
+        width: 50px;
+        color: #29819A;
+        background-color: #29819A;
+        border: 1px solid;
+        margin: 20px 0 20px 0; }
+       .Galery-Safi .Galery-inf p {
+        width: 90%; }
+       .Galery-Safi .Galery-inf h2 {
+        color: #29819A;
+        font-family: "Reem Kufi"; }
+     .Galery-Safi .section {
+      margin-top: 30px;
+      width: 80%;
+      display: flex;
+      margin: auto; }
+       .Galery-Safi .section .Galery-img {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; }
+        
+        
+      .Galery-Safi .section .Galery-img .image {
+          width: 90%;
+          height: 400px; }
+          .image-hv{
+            transition: 1s cubic-bezier(.5,0,0,1);
+          }
+          .image-hv:hover{
+              transform: scale(1.2);
+              transition: 1s cubic-bezier(.5,0,0,1);
+          }
+
+/*Responsive movile */
+@media screen and (max-width: 1100px) 
+{
+  .container-page-down-img div {
+      margin:auto;
+}
+  
+  .white-spaceLarge
+  {
+    margin-top: -60px;
+    height:65px;
+    background-color: white;
+  }
+  .container-page-down
+  {
+    display: block;
+  }
+  .container-page-down .container-page-down--title
+  {
+    text-align: center;
+
+  }
+  .container-page-down .line
+  {
+    width:10%;
+    margin:auto;
+
+  }
+  .container-page-down pre
+  {
+    text-align: center;
+    font-size: 12px;
+
+  }
+  .container-page-down-img
+  {
+    width:100% !important;
+    margin: auto;
+  }  
+  .container-page-down-img .container-page-down-imgSize
+  {
+    width:33%;
+  }
+  .container-page .desc-text
+
+  {
+    text-align: center;
+    font-size: 1.8vw;
+
+  }
+  #down1,#down3
+  {
+    display: block;
+  }
+  .container-hills
+   {
+     flex-direction: column;
+   }
+   .container-hills .container-hills-video
+    {
+      width:43%;
+       /* height:600px; */
+      margin:auto;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+    }
+    .container-chaaba-pic-image {
+      width: 100%;
+  }
+  .container-hills2-spot
+{
+  display: flex;
+  justify-content: center;
+   
+}
+    /* .container-hills .container-hills-des
+    {
+      margin-top: 50px;
+
+    } */
+    .container-hills .container-hills-des-title
+    {
+      text-align: center;
+      font-size: 30px;
+      margin-right: 8px;
+      margin-top: -110px;
+    }
+    .container-hills .container-hills-des-text
+    {
+      font-size: 1.5vw;
+      text-align: center;
+    }
+    .container-hills-btn
+    {
+      width:70%;
+      margin: auto;
+    }
+    /*Repeat*/
+    .container-hills2
+    {
+      flex-direction: column;
+    }
+    .container-hills2 .line
+    {
+       width:10%;
+    margin:auto;
+    }
+    .container-hills2 .container-hills2-title
+    {
+      text-align: center;
+      font-size: 27px;
+    }
+    .container-hills2 .container-hills2-text
+    {
+      font-size: 10px;
+      text-align: center;
+    }
+ /*end Repeat*/
+ .groupe_all
+ {
+   width:100%;
+   background-size: cover;
+   height:100px;
+   background-repeat: no-repeat;
+ }
+
+  .Galery-Safi {
+  margin-top: 30px;
+  width: 80%;
+  display: block;
+  margin: auto; }
+   .Galery-Safi .Galery-inf {
+    width: 50%;
+    margin: auto;
+    text-align: center; }
+     .Galery-Safi .Galery-inf .border {
+      width: 50px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid;
+      /* margin: 20px 0 20px 0; */
+      margin: auto; }
+     .Galery-Safi .Galery-inf p {
+      width: 90%;
+      font-size: 10px; }
+     .Galery-Safi .Galery-inf h2 {
+      color: #29819A;
+      font-family: "Reem Kufi";
+      font-size: 12px; }
+   .Galery-Safi .Galery-img {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto; }
+     .Galery-Safi .Galery-img .image {
+      width: 90%;
+      height: 400px; }
+      main section .Safi-video {
+        width: 80%;
+        margin: auto;
+        display: flex; }
+         section .Safi-video .bg-image {
+          width: 294px;
+          height: 208px;
+          background-image: url("../img/Potterie_img/hills-video.png");
+          background-position: center;
+          background-size: cover;
+          margin: auto; }
+           section .Safi-video .bg-image .icon-player {
+            width: 7%;
+            /* margin-top: 121px; */
+            /* text-align: center; */
+            margin: 70px 0px 0px 108px;
+            display: block;
+            position: absolute; }
+         section .Safi-video .text {
+          width: 50%;
+          margin: auto; }
+           section .Safi-video .text h3 {
+            font-family: "Claytonia Regular";
+            font-size: 34px;
+            color: #029CC7;
+            text-align: center; }
+           section .Safi-video .text p {
+            font-size: 10px;
+            margin: auto;
+            width: 80%;
+            text-align: center; }
+           section .Safi-video .text .btn {
+            margin: auto;
+            width: 100%; }
+             section .Safi-video .text .btn input {
+              width: 46%;
+              background-color: #29819A;
+              border: none;
+              padding: 5px 10px;
+              font-family: "Reem Kufi";
+              color: #FFFFFF;
+              margin: 2px auto; }
+
+  }
+  @media screen and (max-width: 850px) 
+{
+  .container-page-down-img 
+   {
+     flex-direction: column;
+     height: 1300px;
+     justify-content: space-around;
+      
+ 
+   }
+   .container-page-down-imgSize
+   {
+     width:100%;
+     margin:auto;
+  
+   }
+    .Galery-Safi .Galery-inf {
+    width: 50%;
+    margin: auto; }
+     .Galery-Safi .Galery-inf .border {
+      width: 50px;
+      color: #29819A;
+      background-color: #29819A;
+      border: 1px solid;
+      /* margin: 20px 0 20px 0; */
+      margin: 10px auto; }
+     .Galery-Safi .Galery-inf p {
+      width: 90%;
+      font-size: 10px; }
+     .Galery-Safi .Galery-inf h2 {
+      color: #29819A;
+      font-family: "Reem Kufi";
+      font-size: 12px; }
+   .Galery-Safi .section {
+    margin-top: 30px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    overflow-x: auto; }
+     .Galery-Safi .section .Galery-img {
+      display: flex;
+      width: 273%;
+      justify-content: space-between;
+      margin: auto; }
+       .Galery-Safi .section .Galery-img .image {
+        width: 90%;
+        height: 453px; }
+
+
+         section .Safi-video {
+          width: 80%;
+          margin: 43px auto;
+          display: block; }
+           section .Safi-video .bg-image {
+            width: 100%;
+            /* height: 437px; */
+            background-image: url('../img/Potterie_img/hills-video.png');
+            background-position: center;
+            background-size: cover; }
+             section .Safi-video .bg-image .icon-player {
+              width: 13%;
+              /* margin-top: 121px; */
+              /* text-align: center; */
+              margin: 197px auto;
+              display: block; }
+           section .Safi-video .text {
+            width: 80%;
+            margin: 20px; }
+             section .Safi-video .text h3 {
+              font-family: "Claytonia Regular";
+    font-size: 57px;
+    color: #029CC7; }
+             section .Safi-video .text .btn {
+              float: right;
+              margin-top: 13px; }
+               section .Safi-video .text .btn input {
+                width: 46%;
+                background-color: #29819A;
+                border: none;
+                padding: 5px 10px;
+                font-family: "Reem Kufi";
+                color: #FFFFFF;
+                margin: 2px auto; }
+ 
+}
+
+@media screen and (max-width: 700px) 
+{
+  .container-page-down-img 
+   {
+     flex-direction: column;
+     height: 1300px;
+     justify-content: space-around;
+      
+ 
+   }
+   .container-page-down-imgSize
+   {
+     width:100%;
+     margin:auto;
+  
+   }
+   .container-hills .container-hills-des
+   {
+    margin-top: -326px;
+    /* margin: -67px auto; */
+    margin: -76px auto 0 auto;
+
+   }  
+   
+ 
+}
+
+@media screen and (max-width: 545px) 
+{
+   
+   .container-page-down-img 
+   {
+     flex-direction: column;
+  
+ 
+   }
+  #down1,#down3
+  {
+    display: block;
+  }
+  
+
+  .container-page .small-text
+  {
+    text-align: center;
+    font-size: 12px;
+
+  }
+  .container-page .big-text
+  {
+    text-align: center;
+    font-size: 26px;
+
+  }
+
+  .container-page .desc-text
+
+  {
+    text-align: center;
+    font-size: 8px;
+
+  }
+
+}
+ 
+ 
+ 
+ 
+ 
+/*# sourceMappingURL=potterie.css.map */

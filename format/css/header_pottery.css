@@ -1,0 +1,172 @@
+header .chateau-mere img {
+  width: 100%;
+  margin-top: -90px; }
+header .header {
+  width: 80%;
+  height: 30px;
+  position: absolute;
+  top: -3px;
+  left: 128px;
+  position: fixed;
+  z-index: 2; }
+  header .header .div_logo .logo {
+    float: right;
+    margin-top: 10px;
+    display: none; }
+  header .header h1 {
+    font-family: 'Claytonia';
+    font-size: 40px;
+    float: left;
+    color: #2D7C92; }
+  header .header nav {
+    float: right;
+    margin: 15px; }
+    header .header nav a {
+      padding: 5px;
+      font-family: 'Reem Kufi';
+      color: black;
+      text-decoration: none; }
+    header .header nav .active {
+      padding: 5px;
+      font-family: 'Reem Kufi';
+      color: #2D7C92;
+      text-decoration: none; }
+
+.bg-image {
+  background-image: url("../img/Potterie_img/bg-potterie.png");
+  background-size: cover;
+  width: 100%;
+  height: 591px;
+  margin-top: -10px; }
+  .bg-image .image {
+    width: 100%;
+    margin-top: 452px; }
+  .bg-image .image1 {
+    width: 100%;
+    margin-top: 10px;
+    position: fixed; }
+  .bg-image .img-header {
+    width: 20%;
+    margin: auto; }
+    .bg-image .img-header .image2 {
+      position: absolute;
+      top: 327px; }
+
+/*responsive design */
+@media screen and (max-width: 1030px) {
+  header .chateau-mere img {
+    width: 100%;
+    margin-top: -90px; }
+  header .header {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    top: -3px;
+    left: 128px;
+    position: fixed; }
+    header .header h1 {
+      font-family: 'Claytonia';
+      font-size: 27px;
+      float: left;
+      color: #2D7C92; }
+    header .header .div_logo .logo {
+      float: right;
+      margin-top: 10px;
+      display: none; }
+    header .header .div_logo #btn_close {
+      display: none; }
+    header .header nav {
+      width: 35%;
+      /* position: absolute; */
+      right: -66px;
+      /* top: -2px; */
+      text-align: center;
+      margin: 6px 0px; }
+      header .header nav a {
+        padding: 5px;
+        font-family: 'Reem Kufi';
+        color: black;
+        text-decoration: none; }
+
+  .bg-image {
+    background-image: url("../img/Potterie_img/bg-potterie.png");
+    background-size: cover;
+    width: 100%;
+    height: 591px;
+    margin-top: -10px; }
+    .bg-image .image {
+      width: 100%;
+      margin-top: 425px; }
+    .bg-image .image1 {
+      width: 100%;
+      margin-top: 10px; }
+    .bg-image .img-header {
+      width: 20%;
+      margin: auto; }
+      .bg-image .img-header .image2 {
+        position: absolute;
+        top: 327px;
+        display: none; } }
+@media screen and (max-width: 750px) {
+  header .chateau-mere img {
+    width: 100%;
+    margin-top: -90px; }
+  header .header {
+    width: 74%;
+    height: 45px;
+    position: absolute;
+    top: -3px;
+    left: 52px;
+    position: fixed;
+    z-index: 2; }
+    header .header h1 {
+      font-family: 'Claytonia';
+      font-size: 17px;
+      float: left;
+      color: #2D7C92; }
+    header .header .div_logo .logo {
+      float: right;
+      margin-top: 5px;
+      display: block;
+      width: 12px; }
+    header .header .div_logo #btn_close {
+      display: none; }
+    header .header nav {
+      background-color: white;
+      width: 33%;
+      position: absolute;
+      right: -66px;
+      top: 13px;
+      text-align: center;
+      float: right;
+      margin: 3px 30px;
+      display: none; }
+      header .header nav a {
+        padding: 5px;
+        font-family: 'Reem Kufi';
+        color: black;
+        text-decoration: none;
+        display: block; }
+
+  .bg-image {
+    background-image: url("../img/Potterie_img/bg-potterie.png");
+    background-size: cover;
+    width: 100%;
+    height: 591px;
+    margin-top: -10px;
+    background-position-x: -303px; }
+    .bg-image .image {
+      width: 100%;
+      margin-top: 485px; }
+    .bg-image .image1 {
+      width: 100%;
+      margin-top: 10px; }
+    .bg-image .img-header {
+      width: 20%;
+      margin: auto; }
+      .bg-image .img-header .image2 {
+        position: absolute;
+        top: 327px;
+        display: none; } }
+
+/*# sourceMappingURL=header_pottery.css.map */

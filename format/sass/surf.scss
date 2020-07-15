@@ -1,0 +1,739 @@
+// header
+// {
+//     .bg-surf
+//     {
+//         background-image: url("../img/Surf_img/bg-surf.png") !important;
+//         background-size: cover;
+//         background-color: aqua;
+//         width: 100%;
+//         height: 591px;
+    
+      
+//     }
+
+// }
+@import "variable.scss";
+main{
+    .Welcom-safi{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        h1 {
+         color: $bg_btn_color;
+         font-family: $font-title;
+        //  font-size: 12px;
+        }
+        .title{
+            h1{
+                padding: 20px;
+                /* font-size: calc(100px * 2); */
+                font-family: "Claytonia Regular";
+                color: #2D7C92;
+                font-size: 102px;
+            }
+        }
+       
+        p{
+            justify-content: center;
+            width: 37%;
+            margin: auto;
+            font-family: $fonts-text;;
+            padding-top: 10px;
+            font-size: 17px;
+            line-height: 1.3;
+        }
+    }
+    .Galery-Safi{
+        iframe{
+            width: 100%;
+            height: 332px;
+        }
+        margin-top: 30px;
+        width: 80%;
+        display: flex;
+        margin: auto;
+        
+        .Galery-inf{
+            width: 40%;
+            .border{
+                width: 50px;
+                color: $bg_btn_color;
+                background-color:$bg_btn_color ;
+                border: 1px solid;
+                margin: 20px 0 20px 0;
+            }
+            p{
+                width: 90%;
+            }
+            h2{
+                color: $bg_btn_color;
+                font-family: $font-title;
+    
+            }
+        }
+        .section{
+            margin-top: 30px;
+            width: 80%;
+            display: flex;
+            margin: auto;
+            margin-left: 50px;
+            .Galery-img{
+                display: flex;
+                 width: 100%;
+                justify-content: space-between;
+                       .image{
+                          width: 90%;
+                          height: 400px;
+                          transition: 1s cubic-bezier(.5,0,0,1);
+                        }
+                        .image:hover{
+                          transform: scale(1.2);
+                          transition: 1s cubic-bezier(.5,0,0,1);
+                        }
+                    }
+        }
+     
+     
+    }
+    section{
+        // height: 200px;
+        .Safi-video{
+            width: 80%;
+            margin: 125px auto;
+            display: flex;
+            .bg-image{
+                    width: 591px;
+                    height: 437px;
+                    background-image: url("../img/Surf_img/swiming.png");
+                    background-position: center;
+                    background-size: cover;
+                    .icon-player{
+                        width: 13%;
+                        /* margin-top: 121px; */
+                        /* text-align: center; */
+                        margin: 197px auto;
+                        display: block;
+                    }
+                }
+                .text{
+                    width: 42%;
+                    margin: -35px auto;
+                    h3{
+                        font-family: $fonts;
+                        font-size: 70px;
+                        color: #2D7C92 ;
+                    }
+                    // width: 50%;
+                    // margin: 20px;
+                    .btn{
+                        float: right;
+                        margin-top:88px;
+                        input{
+                            width: 46%;
+                            background-color:$bg_btn_color ;
+                            border: none;
+                            padding: 5px 10px;
+                            font-family: $font-title;
+                            color:$gnrl;
+                            margin: 2px auto;
+                        }
+                    }
+                }
+            
+            }
+    }
+    .gnrl{
+        background-image: url(../img/Surf_img/lalfatna.png);
+        height: 1024px;
+        background-position-x: -85px;
+        .bg-design1 {
+            background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+            background-size: cover;
+            background-position: 50%;
+            color: #fff;
+            width: 100%;
+            height: 200px;
+            font-size: 20px;
+            margin-top: -78px;
+        }
+        .container-hills2
+{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.container-hills2-des
+{
+    float: right;
+    /* margin-left: 22px; */
+    margin: 135px 0px;
+}
+.container-hills2-title
+{
+  color:#029CC7;
+  font-size: 40px;
+}
+
+.circle
+{
+  width: 23px;
+  height: 30px;
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+cursor: pointer;
+}
+iframe{
+  /* margin-top: -11px; */
+  height: -webkit-fill-available;
+  /* width: 115%; */
+}
+.Maps{
+    /* margin-right: 26px; */
+    /* margin-right: 26px; */
+    /* margin-left: -127px; */
+    position: absolute;
+    /* margin-top: -257px; */
+    width: 23%;
+    height: 257px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    /* margin: -257px 0px 0px; */
+    justify-content: center;
+    top: 67%;
+    display: none;
+}
+
+.container-hills2-spot
+{
+  display: flex;
+   
+}
+.container-hills2-spot-groupe
+{
+  margin-left: 12px;
+}
+.straight_line
+{
+  display: flex;
+}
+.container-hills2-pic img
+{
+  /* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+  /* width: 572px;
+  height: 400px;
+  background-size: cover; */
+width: 100%;
+
+}
+    }
+    .gnrl-2{
+      background-image: url(../img/Surf_img/raslafa.png);
+      height: 1024px;
+      background-position-x: -259px;
+      .bg-design1 {
+         background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+    background-size: cover;
+    background-position: 50%;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 73px;
+    position: relative;
+    top: -28px;
+    // margin-top: -78px;
+      }
+      .container-hills2
+{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.container-hills2-des
+{
+  float: left;
+  /* margin-left: 22px; */
+  margin: 135px 38px;
+}
+.container-hills2-title
+{
+color:#029CC7;
+font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+}
+iframe{
+  /* margin-top: -11px; */
+  height: -webkit-fill-available;
+  /* width: 115%; */
+}
+.Maps{
+    /* margin-right: 26px; */
+    /* margin-right: 26px; */
+    /* margin-left: -127px; */
+    position: absolute;
+    /* margin-top: -257px; */
+    width: 23%;
+    height: 257px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    /* margin: -257px 0px 0px; */
+    justify-content: center;
+    top: 67%;
+    display: none;
+}
+.container-hills2-spot
+{
+display: flex;
+ 
+}
+.container-hills2-spot-groupe
+{
+margin-left: 12px;
+}
+.straight_line
+{
+display: flex;
+}
+.container-hills2-pic img
+{
+/* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+/* width: 572px;
+height: 400px;
+background-size: cover; */
+width: 100%;
+
+}
+  }
+  .gnrl-3{
+    background-image: url(../img/Surf_img/capbedouza.png);
+    height: 1024px;
+    background-position-x: -38px;
+    background-size: cover;
+    .bg-design1 {
+        background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+        background-size: cover;
+        background-position: 50%;
+        color: #fff;
+        width: 100%;
+        height: 200px;
+        font-size: 20px;
+        margin-top: -79px;
+        position: relative;
+        top: -29px;
+    }
+    .container-hills2
+{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.container-hills2-des
+{
+float: right;
+/* margin-left: 22px; */
+margin: 135px 0px;
+}
+.container-hills2-title
+{
+color:#029CC7;
+font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+  }
+iframe{
+  height: -webkit-fill-available;
+}
+.Maps{
+    position: absolute;
+    width: 23%;
+    height: 257px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFFFFF;
+    justify-content: center;
+    top: 97%;
+    display: none;
+}
+.container-hills2-spot
+{
+display: flex;
+
+}
+.container-hills2-spot-groupe
+{
+margin-left: 12px;
+}
+.straight_line
+{
+display: flex;
+}
+.container-hills2-pic img
+{
+/* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+/* width: 572px;
+height: 400px;
+background-size: cover; */
+width: 100%;
+
+}
+
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(-30px); }
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(0.5, 0, 0, 1); }
+.gnrl-4{
+  background-image: url(../img/Surf_img/walidiya.png);
+  height: 1024px;
+  background-position-x: -273px;
+  background-size: cover;
+  .bg-design1 {
+      background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+      background-size: cover;
+      background-position: 50%;
+      color: #fff;
+      width: 100%;
+      height: 200px;
+      font-size: 20px;
+      margin-top: -79px;
+      position: relative;
+      top: -32px;
+  }
+  .container-hills2
+{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.container-hills2-des
+{
+float: left !important;
+/* margin-left: 22px; */
+margin: 135px 38px;
+}
+.container-hills2-title
+{
+color:#029CC7;
+font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+  }
+iframe{
+  height: -webkit-fill-available;
+}
+.Maps{
+  position: absolute;
+  width: 23%;
+  height: 257px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFFFFF;
+  justify-content: center;
+  top: 67%;
+  display: none;
+}
+.container-hills2-spot
+{
+display: flex;
+
+}
+.container-hills2-spot-groupe
+{
+margin-left: 12px;
+}
+.straight_line
+{
+display: flex;
+}
+.container-hills2-pic img
+{
+/* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+/* width: 572px;
+height: 400px;
+background-size: cover; */
+width: 100%;
+
+}
+}
+.gnrl-5{
+  background-image: url(../img/Surf_img/essearia.png);
+  height: 1024px;
+  background-position-x: -85px;
+  background-size: cover;
+  .bg-design1 {
+      background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+      background-size: cover;
+      background-position: 50%;
+      color: #fff;
+      width: 100%;
+      height: 200px;
+      font-size: 20px;
+      margin-top: -80px;
+      font-size: 20px;
+      margin-top: -90px;
+      position: absolute;
+     top: 9px;
+  }
+  .container-hills2
+{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.container-hills2-des
+{
+float: right;
+/* margin-left: 22px; */
+margin: 246px 0px;
+}
+.container-hills2-title
+{
+color:#029CC7;
+font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+  }
+iframe{
+  height: -webkit-fill-available;
+}
+.Maps{
+  position: absolute;
+  width: 23%;
+  height: 257px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFFFFF;
+  justify-content: center;
+  top: 58.5%;
+  display: none;
+}
+.container-hills2-spot
+{
+display: flex;
+
+}
+.container-hills2-spot-groupe
+{
+margin-left: 12px;
+}
+.straight_line
+{
+display: flex;
+}
+.container-hills2-pic img
+{
+/* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+/* width: 572px;
+height: 400px;
+background-size: cover; */
+width: 100%;
+
+}
+}
+    pre{
+        margin: 58px 0px;
+    }
+    .groupe_all {
+        background-image: url(../img/Potterie_img/Groupe_all.svg) !important;
+        background-size: cover;
+        width: 100%;
+        height: 420px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 647px 0px;
+    }
+  //   .groupe_all-2{
+  //     background-image: url(../img/Surf_img/tof.svg) !important;
+  //     background-size: cover;
+  //     width: 100%;
+  //     height: 420px;
+  //     padding-left: 15px;
+  //     padding-right: 15px;
+  //     margin: 587px 0px;
+  // }
+  .image{
+    width: 100%;
+    margin-top: -25px;
+  }
+  .image1{
+    width: 100%;
+    margin-top: -100px;
+  }
+    .gnrl{
+        background-image: url(../img/Surf_img/lalfatna.png);
+        height: 1024px;
+        background-position-x: -85px;
+        .bg-design1 {
+            background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+            background-size: cover;
+            background-position: 50%;
+            color: #fff;
+            width: 100%;
+            height: 200px;
+            font-size: 20px;
+            margin-top: -90px;
+        }
+        .container-hills2
+{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.container-hills2-des
+{
+    float: right;
+    /* margin-left: 22px; */
+    margin: 135px 0px;
+}
+.container-hills2-title
+{
+  color:#029CC7;
+  font-size: 40px;
+}
+.circle
+{
+  width: 23px;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
+.circle:hover{
+  cursor: pointer;
+  }
+.container-hills2-spot
+{
+  display: flex;
+   
+}
+.container-hills2-spot-groupe
+{
+  margin-left: 12px;
+}
+.straight_line
+{
+  display: flex;
+}
+.container-hills2-pic img
+{
+  /* background-image: url("../img/Potterie_img/hills-img1.png") !important; */
+  /* width: 572px;
+  height: 400px;
+  background-size: cover; */
+width: 100%;
+
+}
+// .group_all-2{
+//     background-image: url(../img/Potterie_img/Groupe_all.svg) !important;
+//     background-size: cover;
+//     width: 100%;
+//     height: 420px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin: 587px 0px;
+// }
+    }
+    
+    .space{
+        margin-top: 75px;
+    }
+    .bg-design2-blue {
+      background-image: url(../img/Potterie_img/bg-design2-blue.svg) !important;
+      background-size: cover;
+      background-position: 50%;
+      color: #fff;
+      width: 100%;
+      height: 400px;
+      margin-top: -125px;
+  }
+  .Next-destination {
+    background-image: url(../img/Potterie_img/next-destination.png) !important;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    
+}
+.Next-destination h4 {
+  color: #2D7C92;
+}
+.line {
+  margin: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #3B8499;
+}
+.Next-destination h1 {
+  color: #674635;
+  font-family: 'Claytonia Regular';
+  font-size: 85px;
+  margin: 60px 0px;
+}
+.Next-destination button {
+  color: white;
+  border: none;
+  background-color: #29819A;
+  width: 120px;
+  height: 40px;
+}
+.discover{
+color: white;
+}
+.discover:hover{
+  color: white;
+}
+// .white-space {
+//   height: 65px;
+// }
+    
+    
+}
+
+
+@import "headerseurf.scss";
+
+@import "footer.scss";
