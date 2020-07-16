@@ -536,7 +536,7 @@ main{
                 margin: auto;
             }
             p{
-                width: 90%;
+                width: 100%;
                 font-size: 10px;
             }
             h2{
@@ -554,7 +554,12 @@ main{
            .image{
               width: 90%;
               height: 400px;
+            
+            &:hover{
+                transform: none !important;
+                transition: none; 
             }
+        }
            
         }
      
@@ -1006,7 +1011,7 @@ main{
                    margin: 10px auto;
                 }
                 p{
-                    width: 90%;
+                    width: 100%;
                     font-size: 10px;
                 }
                 h2{

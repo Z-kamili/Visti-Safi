@@ -42,6 +42,34 @@ header .header {
       font-family: 'Reem Kufi';
       color: #2D7C92;
       text-decoration: none; }
+header .menu {
+  float: right;
+  line-height: 100px;
+  margin-top: -22px;
+  z-index: 2;
+  color: black; }
+header .menu a {
+  color: black;
+  font-family: "Reem Kufi";
+  text-decoration: none;
+  padding: 0 10px; }
+header .show-menu-btn, header .hide-menu-btn {
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none; }
+header .show-menu-btn {
+  float: right; }
+header .show-menu-btn i {
+  line-height: 100px; }
+header .menu a:hover,
+header .show-menu-btn:hover,
+header .hide-menu-btn:hover {
+  color: #3498db; }
+header #chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111; }
 
 .bg-image {
   background-image: url("../img/bg-header.png");
@@ -99,6 +127,32 @@ header .header {
         font-family: 'Reem Kufi';
         color: black;
         text-decoration: none; }
+  header .show-menu-btn {
+    display: block;
+    margin-top: -41px;
+    font-size: 19px; }
+  header .hide-menu-btn {
+    display: block; }
+  header .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s; }
+  header .menu a {
+    display: block;
+    padding: 20px; }
+  header .hide-menu-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px; }
+  header #chk:checked ~ .menu {
+    right: 0; }
 
   .bg-image {
     background-image: url("../img/bg-header.png");
@@ -644,7 +698,7 @@ footer {
           /* margin: 20px 0 20px 0; */
           margin: auto; }
         main .Galery-Safi .Galery-inf p {
-          width: 90%;
+          width: 100%;
           font-size: 10px; }
         main .Galery-Safi .Galery-inf h2 {
           color: #29819A;
@@ -658,6 +712,9 @@ footer {
         main .Galery-Safi .Galery-img .image {
           width: 90%;
           height: 400px; }
+          main .Galery-Safi .Galery-img .image:hover {
+            transform: none !important;
+            transition: none; }
     main .city-safi {
       text-align: center; }
       main .city-safi p {
@@ -1008,7 +1065,7 @@ footer {
           /* margin: 20px 0 20px 0; */
           margin: 10px auto; }
         main .Galery-Safi .Galery-inf p {
-          width: 90%;
+          width: 100%;
           font-size: 10px; }
         main .Galery-Safi .Galery-inf h2 {
           color: #29819A;

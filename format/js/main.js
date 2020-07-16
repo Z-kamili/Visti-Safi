@@ -24,23 +24,23 @@ document.querySelector('.close').addEventListener("click",()=>{
 });
 
 //gestion menu
-var btn_menu=document.getElementById("btn_menu");
-var btn_close=document.getElementById("btn_close");
-var menu1=document.getElementById("menu1");
-btn_menu.onclick=function()
-{
-	console.log("hello");
-	btn_menu.style.display="none";
-	btn_close.style.display="inline";
-	menu1.style.display="block";
-} 
-btn_close.onclick=function()
-{
-   btn_menu.style.display="block";
-   btn_close.style.display="none";
-   menu1.style.display="none";
+// var btn_menu=document.getElementById("btn_menu");
+// var btn_close=document.getElementById("btn_close");
+// var menu1=document.getElementById("menu1");
+// btn_menu.onclick=function()
+// {
+// 	console.log("hello");
+// 	btn_menu.style.display="none";
+// 	btn_close.style.display="inline";
+// 	menu1.style.display="block";
+// } 
+// btn_close.onclick=function()
+// {
+//    btn_menu.style.display="block";
+//    btn_close.style.display="none";
+//    menu1.style.display="none";
 
-}
+// }
 /*slider*/
 let title =  document.getElementsByClassName('title-2')[0];
 let text = document.getElementsByClassName('text-2')[0];
