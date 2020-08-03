@@ -271,11 +271,10 @@ in the city.</pre>
             </div>
             <div class="container-hills2-spot-groupe">
                 <p class="container-hills2-spot-name">Bab Cha'aba</p>
-                <div class="straight_line"  >
+                <div class="straight_line">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
-
                 </div>
                 
 

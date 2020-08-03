@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px) {
+    .bg-surf .FixeNav .bg-design1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* cover image */
+    .bg-surf {
+        background-image: url("../img/Sardine_img/cover.png") !important;
+        width: 100%;
+        height: 800px;
+    }
+
+    .bg-image{
+        background-position-y: 0px !important;
+    }
+
+    .container-welcome{
+        /* position: absolute; */
+        /* top: -130px !important; */
+    
+    }
+
+    .image{
+        /* margin-top: -160px; */
+    }
+
+    .small-text{
+        font-size: 20px !important;
+        z-index: 1000;
+        color: white !important;
+    }
+    .big-text{
+        font-size: 20px !important;
+        z-index: 1000;
+        color: white !important;
+    }
+
+    .container-page-down-des{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .container-hills-des{
+        width: 100% !important;
+        height: 200px !important;
+        word-break: break-all;
+    }
+
+    .container-page-down-img, .container-page-down{
+        width: 100% !important;
+        display: block !important;
+    }
+    .im{
+        margin-bottom:  10px;
+        width: 100% !important;
+    }
+
+    .container-hills-des-text, pre{
+        width: 100% !important;
+        height: 200px !important;
+        word-wrap: break-word !important;
+        
+    }
+
+    .container-hills2{
+        margin: 0px !important;
+        width: 100% !important;
+    }
+
+    .container-hills2-pic1, #down2{
+        padding: 0px !important;
+        width: 0px !important;
+        height: 80px !important;
+        margin: 0px !important;
+    }
+
+    .image{
+        margin-top: 20px;
+    }
+
+    /* pre{
+        height: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    } */
+
+    pre{
+        width: 100% !important;
+    }
+
+    .container-hills2-text{
+        width: 100% !important;
+        overflow: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
