@@ -159,6 +159,7 @@
 {
   text-align: center;
   margin-top: 40px;
+ 
 
   
 }
@@ -554,8 +555,14 @@ width: 100%;
 
   {
     text-align: center;
-    font-size: 1.8vw;
+    font-size: 12px;
+    overflow: hidden;
 
+  }
+  .Galery-inf h2
+  {
+    text-align: center;
+    font-size: 15px !important;
   }
   #down1,#down3
   {
@@ -622,8 +629,10 @@ width: 100%;
     }
     .container-hills2 .container-hills2-text
     {
-      font-size: 10px;
+      font-size: 0.7rem;
       text-align: center;
+      
+     
     }
  /*end Repeat*/
  .groupe_all
@@ -861,6 +870,13 @@ width: 100%;
     font-size: 8px;
 
   }
+  .container-hills2 .container-hills2-text
+    {
+      font-size: 0.7rem;
+      text-align: center;
+      
+     
+    }
 
 }
  
