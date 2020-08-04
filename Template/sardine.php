@@ -10,6 +10,7 @@
     <link href="format/css/sardine.css" rel="stylesheet">
     <link href="format/css/headersardine.css" rel="stylesheet">
     <link rel="stylesheet" href="format/css/media-Sardine.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -62,10 +63,10 @@ Visit us to taste this light and delicious food.
         <div id="img3" class="page-down-img3"></div>
         <div  id="down3" class="page-down-down"></div>
         <div  id="down2" class="page-down-down">
-            <p>SAFI 'Cheouaya'</p>
+            <!-- <p>SAFI 'Cheouaya'</p>
             <div class="line"></div>
             <pre>Number One dish, Grilled  
- Sardine.</pre>
+ Sardine.</pre> -->
         </div>
     </div>
 
