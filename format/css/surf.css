@@ -1,5 +1,34 @@
 /* variable */
 /*generale*/
+
+@font-face {
+  font-family: "Claytonia";
+  src: url("../../Asstes/Fonts/Claytonia/Claytonia Regular.ttf");
+  src: url("../../Asstes/Fonts/Claytonia/Claytonia italic.ttf");
+  src: url("../../Asstes/Fonts/Claytonia/Claytonia Regular.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Claytonia Regular";
+  src: url("../../Asstes/Fonts/Claytonia/Claytonia Regular.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src:url("../../Asstes/Fonts/Montserrat/Montserrat-Regular.ttf");
+  src:url("../../Asstes/Fonts/Montserrat/Montserrat-Bold.ttf");
+  src:url("../../Asstes/Fonts/Montserrat/Montserrat-Light.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Reem Kufi";
+  src:url("../../Asstes/Fonts/ReemKufi-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
