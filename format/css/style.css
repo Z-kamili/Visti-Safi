@@ -1,5 +1,24 @@
 /* variable */
 /*generale*/
+
+@font-face {
+  font-family: "Claytonia";
+  src: url("../../Assts/Fonts/Claytonia/Claytonia Regular.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src:url("../../Assts/Fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Reem Kufi";
+  src:url("../../Assts/Fonts/ReemKufi-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;

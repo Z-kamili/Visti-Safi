@@ -1,71 +1,3 @@
-<?php
-
-$name = $email = $Message = $nomerror = $emailerror = $Messageerror = "";
-$test = true;
-
-if(!empty($_POST)){
- $name    = checkInput($_POST['name']);
- $email   =  checkInput($_POST['email']);
- $Message =  checkInput($_POST['Message']);
-  if(empty($name)){
-    $nomerror = "ce champs ne peut pas etre vide";
-    $test = false;
-  }
-  if($email == ""){
-    $emailerror = "ce champs ne peut pas etre vide";
-    $test = false;
-  }
-  if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-    $emailerror = "email est incorect";
-    $test = false;
-  }
-  if($Message == ""){
-    $Messageerror = "ce champs ne peut pas etre vide";
-    $test = false;
-  }
-
-  if($test){
-    $to = "Zakariakamili97@gmail.com";
-    $subject = $name;
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= 'From: '.$email.'<'.$email.'>' . "\r\n".'Reply-To: '.$email."\r\n" . 'X-Mailer: PHP/' . phpversion();
-    $message = '<!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Document</title>
-    </head>
-    <body>
-    <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">'.$message.'</span>
-      <div class="container">
-               '.$Message.'<br/>
-                  Regards<br/>
-                '.$email.'
-      </div>
-    </body>
-    </html>';
-  $result = mail($to, $subject, $message, $headers);
-  echo '<script>alert("Email sent successfully !")</script>';
-  header('Location:index.php?action=home');
-}
-    // mail($to,$subject,$txt,$headers);
-   
- }
-function checkInput($data){
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-  
-  
-}
-
-?>
-
 <!-- router -->
 <!DOCTYPE html>
 <html lang="en">
@@ -217,17 +149,14 @@ function checkInput($data){
      <div  class="div-text">Nom :</div>
      <div class="div-inpt">
       <input type="text" name="name">
-   <div><span class="error"> <?php echo $nomerror ?> </span></div>   
      </div>
      <div class="div-text">Email:</div>
      <div class="div-inpt">
       <input type="text" name="email">
-    <div><span class="error"><?php echo $emailerror ?></span></div>  
      </div>
      <div class="div-text">Message : </div>
      <div class="div-inpt">
       <textarea name="Message" ></textarea>
-  <div><span class="error"><?php echo $Messageerror ?></span></div>    
      </div>
      <input type="submit" value="Subscribe">
    </form>
