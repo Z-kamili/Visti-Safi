@@ -128,9 +128,10 @@ renowned Grand Mosque. After the Saadians came the Alawites. It later came under
 until independence. Thus Safi has a vast and intriguing history, filled 
 with a variety of influences, each age contributing to the unique attractions in the city.</p>
 <div class="half-white-space"></div>
+
         <div class="container-hills2-spot">
 
-            <div class="circle"></div>
+            <div class="circle" onclick="animate_maps('.Maps')"></div>
             <div class="container-hills2-spot-groupe">
                 <p class="container-hills2-spot-name">City Port </p>
                 <div class="straight_line"  >
@@ -143,6 +144,9 @@ with a variety of influences, each age contributing to the unique attractions in
 
             </div>
         </div>
+        <div class="allMaps Maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
         
 
     </div>
@@ -187,7 +191,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
         <div class="container-hills2-spot">
 
-            <div class="circle"></div>
+            <div class="circle" onclick="animate_maps('.Maps2')"></div>
             <div class="container-hills2-spot-groupe">
                  <p class="container-hills2-spot-name"> visit All Sardines Restaurants</p>
                 <div class="straight_line">
@@ -200,6 +204,9 @@ with a variety of influences, each age contributing to the unique attractions in
 
             </div>
         </div>
+        <div class="allMaps Maps2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
         
 
     </div>
@@ -233,6 +240,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
 <?php include 'include/footer.php'?>
 <script src="format/js/main.js"></script>
+<script src="format/js/animation.js"></script>
  
 </body>
 </html>

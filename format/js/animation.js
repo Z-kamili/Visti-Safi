@@ -19,13 +19,10 @@ document.querySelectorAll('.reveal').forEach(function(r){
 
 /*animation maps*/
 function animate_maps(classe){
-console.log("dssdffsd");
     if ($(classe).is(":hidden")){
-      console.log("hhhhhhh");
       $(classe).show("slow");
     }else{
       $(classe).hide("slow");
-      console.log("hhhhhhh");
     }
 
 }
