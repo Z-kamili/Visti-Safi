@@ -48,7 +48,7 @@ Visit us to taste this light and delicious food.
 
     
    <div class="container-page-down-img">
-    <div class="im">
+    <!-- <div class="im">
         <div id="img1" class="page-down-img1"></div>
         <div  id="down1" class="page-down-down"></div>
     </div>
@@ -57,17 +57,20 @@ Visit us to taste this light and delicious food.
         <div id="img2" class="page-down-img2"></div>
         <div  id="down2" class="page-down-down"></div>
 
-    </div>
-    <div  class="im">
+    </div> -->
+    <!-- <div  class="im">
         <div id="img3" class="page-down-img3"></div>
         <div  id="down3" class="page-down-down"></div>
         <div  id="down2" class="page-down-down">
-            <!-- <p>SAFI 'Cheouaya'</p>
-            <div class="line"></div>
-            <pre>Number One dish, Grilled  
- Sardine.</pre> -->
         </div>
-    </div>
+    </div> -->
+    <div class="section">
+<div class="Galery-img">
+<div class="reveal reveal-image"> <img class="image" src="format/img/Sardine_img/IMG_9576.png"></div>
+<div class="reveal reveal-image"> <img class="image" src="format/img/img1-2.png"></div>
+<div class="reveal reveal-image"> <img class="image" src="format/img/fish.png"></div>
+</div>
+</div>
 
    </div>
 
