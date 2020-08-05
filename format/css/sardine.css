@@ -335,6 +335,7 @@ a:hover{
  iframe{
   height: 235px;
   z-index: 1;
+  position: absolute;
  }
  
  .section .Galery-img{
