@@ -53,9 +53,9 @@
     <div class="container-welcome">
         <p class="small-text reveal">Welcome to</p>
         <p class="big-text reveal">The City of Pottery</p>
-        <pre class="desc-text reveal">Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium 
+        <p class="desc-text reveal">Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium 
     sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar
-                   euismod cursus non justo.</pre>
+                   euismod cursus non justo.</p>
 
     </div>
 
@@ -202,13 +202,13 @@ Sed sagittis et urna non efficitur.</pre>
         <div class="line"></div>
           
         <div class="white-space"></div>
-        <pre class="container-hills2-text">Located on the shores of the Atlantic Ocean,Safi has been a vital port for centuries.
+        <p class="container-hills2-text">Located on the shores of the Atlantic Ocean,Safi has been a vital port for centuries.
 Originally known as Asfi, the area was inhabited by Carthaginians, Romans and the 
 Almohades over time. Between 1508 and 1541, the Portuguese took over rule of Safi.
 This was then followed by Saadian occupation,which saw the construction of the 
 renowned Grand Mosque. After the Saadians came the Alawites.It later came under 
 French control, until independence. Thus Safi has a vast and intriguing history, filled 
-with a variety of influences, each age contributing to the unique attractions in the city.</pre>
+with a variety of influences, each age contributing to the unique attractions in the city.</p>
 <div class="half-white-space"></div>
 <div class="allMaps Maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -252,7 +252,7 @@ with a variety of influences, each age contributing to the unique attractions in
         <h1 class="container-hills2-title">Bab Cha'aba</h1>
         <div class="line"></div>
         <div class="white-space"></div>
-        <pre class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port 
+        <p class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port 
 for centuries. Originally known as Asfi,the area was inhabited by 
 Carthaginians, Romans and the Almohades over time. Between 1508 and 1541,
 the Portuguese took over rule of Safi. This was then followed by Saadian 
@@ -260,7 +260,7 @@ occupation, which saw the construction of the renowned Grand Mosque.
 After the Saadians came the Alawites. It later came under French control,
 until independence. Thus Safi has a vast and intriguing history, filled 
 with a variety of influences, each age contributing to the unique attractions
-in the city.</pre>
+in the city.</p>
 <div class="half-white-space"></div>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-2">
@@ -306,13 +306,13 @@ in the city.</pre>
         <div class="line"></div>
           
         <div class="white-space"></div>
-        <pre class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port for centuries.
+        <p class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port for centuries.
 Originally known as Asfi, the area was inhabited by Carthaginians, Romans and the 
 Almohades over time. Between 1508 and 1541, the Portuguese took over rule of Safi.
 This was then followed by Saadian occupation, which saw the construction of the 
 renowned Grand Mosque. After the Saadians came the Alawites. It later came under French control,
 until independence. Thus Safi has a vast and intriguing history, filled 
-with a variety of influences, each age contributing to the unique attractions in the city.</pre>
+with a variety of influences, each age contributing to the unique attractions in the city.</p>
 <div class="half-white-space"></div>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-3">

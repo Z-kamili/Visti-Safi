@@ -321,6 +321,8 @@
 {
   /* margin-left: 100px; */
   margin-top: 49px;
+  width: 70%;
+  margin: auto;
 }
 .container-hills2-title
 {
@@ -441,9 +443,10 @@ width: 100%;
 .container-village-pic
 {
   background-image: url("../img/Potterie_img/Pettrvilage.png") !important;
- width:494px;
+ /* width:494px; */
   /* height:400px; */
   background-size: cover;
+  width: 60%;
 }
 
 .groupe_all
