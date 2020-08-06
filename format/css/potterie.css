@@ -89,7 +89,7 @@
          section .Safi-video .bg-image {
           width: 591px;
           height: 437px;
-          background-image: url("../img/Potterie_img/hills-video.png");
+          background-image: url("../img/Potterie_img/IMG_9375.png");
           background-position: center;
           background-size: cover; }
           main section .Safi-video .bg-image .icon-player {
@@ -643,7 +643,7 @@ width: 100%;
  {
    width:100%;
    background-size: cover;
-   height:100px;
+   height:110px;
    background-repeat: no-repeat;
  }
 
@@ -685,7 +685,7 @@ width: 100%;
          section .Safi-video .bg-image {
           width: 294px;
           height: 208px;
-          background-image: url("../img/Potterie_img/hills-video.png");
+          background-image: url("../img/Potterie_img/IMG_9375.png");
           background-position: center;
           background-size: cover;
           margin: auto; }
@@ -733,8 +733,13 @@ width: 100%;
      flex-direction: column;
      height: 1300px;
      justify-content: space-around;
-      
- 
+   }
+   .groupe_all
+   {
+     width:100%;
+     background-size: cover;
+     height:85px;
+     background-repeat: no-repeat;
    }
    .container-page-down-imgSize
    {
@@ -782,7 +787,7 @@ width: 100%;
            section .Safi-video .bg-image {
             width: 100%;
             /* height: 437px; */
-            background-image: url('../img/Potterie_img/hills-video.png');
+            background-image: url('../img/Potterie_img/IMG_9375.png');
             background-position: center;
             background-size: cover; }
              section .Safi-video .bg-image .icon-player {
