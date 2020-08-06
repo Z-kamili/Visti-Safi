@@ -315,7 +315,7 @@
 {
   display: flex;
   width:80% !important;
- margin: auto;
+ margin:100px  auto;
 
 }
 .container-hills2-des
@@ -455,7 +455,7 @@ width: 100%;
   background-image: url("../img/Potterie_img/Groupe_all.svg") !important;
   background-size: cover;
   width:100%;
-  height:420px;
+  height:460px;
   padding-left: 15px;
   padding-right: 15px;
 }
