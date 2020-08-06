@@ -355,26 +355,4 @@ with a variety of influences, each age contributing to the unique attractions in
  
 </body>
 <script src="format/js/animation.js"></script>
-<script>
-    //gestion menu
-var btn_menu=document.getElementById("btn_menu");
-var btn_close=document.getElementById("btn_close");
-var menu1=document.getElementById("menu1");
-btn_menu.onclick=function()
-{
-	console.log("hello");
-	btn_menu.style.display="none";
-	btn_close.style.display="inline";
-	menu1.style.display="block";
-} 
-btn_close.onclick=function()
-{
-   btn_menu.style.display="block";
-	btn_close.style.display="none";
-	menu1.style.display="none";
-
-}
-
- 
-</script>
 </html>
