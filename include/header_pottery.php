@@ -42,9 +42,9 @@
     <i class="fas fa-ellipsis-h"></i>
     </label>
     <ul class="menu">
-      <a href="index.php?action=home">Home</a>
-      <a href="index.php?action=sardine">Fish</a>
-      <a class="active" href="index.php?action=pottery">Pottery</a>
+      <a href="index.php?action=home">Accueil</a>
+      <a href="index.php?action=sardine">Poisson</a>
+      <a class="active" href="index.php?action=pottery">Poterie</a>
       <a href="index.php?action=surf">Surf</a>
       <label for="chk" class="hide-menu-btn">
         <i class="fas fa-times"></i>

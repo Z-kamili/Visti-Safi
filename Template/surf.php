@@ -27,9 +27,9 @@
 
     <section class="Welcom-safi">
 
-        <h1 class="reveal">Welcom To</h1>
+        <h1 class="reveal">Bienvenue à</h1>
         <div class="title">
-          <h1 class="reveal">The Surf Experience</h1>   
+          <h1 class="reveal">L'expérience surf</h1>   
         </div>
         <!-- <p>
             Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut. In quis leo id massa pulvinar euismod cursus non justo.
@@ -59,7 +59,7 @@
       <img class="icon-player" id="img-bg" src="format/img/playvideo.png">
     </div>
     <div class="text">
-      <h3>Surf Distinations</h3>
+      <h3>Destinations de surf</h3>
       <p>Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut,  Sed sagittis et urna non efficitur.Mauris neque nisi, faucibus non elementum in, convallis et eros. Sed pretium sem libero, vel pellentesque purus ultrices ut,  Sed sagittis et urna non efficitur.</p>
       <div class="btn">
         <input type="submit" class="icon-player" value="<Prev">
@@ -103,7 +103,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
 <div class="circle" onclick="animate_maps_surf('Maps-1')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">The Pottery hills</p>
+                <p class="container-hills2-spot-name">Lala Fatna Beach</p>
                 <div class="straight_line">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -151,7 +151,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
 <div class="circle" onclick="animate_maps_surf('Maps-2')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">The Pottery hills</p>
+                <p class="container-hills2-spot-name">Ras lafaa beach</p>
                 <div class="straight_line">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -201,7 +201,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
 <div class="circle" onclick="animate_maps_surf('Maps-3')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">The Pottery hills</p>
+                <p class="container-hills2-spot-name">cap beddouza safi</p>
                 <div class="straight_line"  >
                     <div class="line"></div>
                     <div class="line"></div>
@@ -251,7 +251,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
 <div class="circle" onclick="animate_maps_surf('Maps-4')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">The Pottery hills</p>
+                <p class="container-hills2-spot-name">Eloualidia beach</p>
                 <div class="straight_line"  >
                     <div class="line"></div>
                     <div class="line"></div>
@@ -302,7 +302,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
             <div class="circle" onclick="animate_maps_surf('Maps-5')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">The Pottery hills</p>
+                <p class="container-hills2-spot-name">Essaouiria beach</p>
                 <div class="straight_line"  >
                     <div class="line"></div>
                     <div class="line"></div>
@@ -330,12 +330,13 @@ with a variety of influences, each age contributing to the unique attractions in
 
 </div>
 <div class="Next-destination reveal">
-    <h4>Your Next Destination </h4>
+    <h4>Votre prochaine destination
+ </h4>
     <div class="line" style="margin: auto;"></div>
     <div class="white-space"></div>
-    <h1>Try Some Sardins</h1>
+    <h1>Essayez quelques sardines</h1>
     <div class="white-space"></div>
-    <button><a class="discover" href="index.php?action=sardine">Discover</a></button>
+    <button><a class="discover" href="index.php?action=sardine">Découvrir</a></button>
 
 </div>
 </section>
