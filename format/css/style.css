@@ -499,13 +499,14 @@ main {
         color: #674635; }
       main section .Safi-video .text .btn {
         float: right;
-        margin-top: 88px;           
+        margin-top: 88px;   
+        width: 25%;        
       }
         main section .Safi-video .text .btn input {
           width: 46%;
           background-color: #29819A;
           border: none;
-          padding: 5px 10px;
+          padding: 5px 2px;
           font-family: "Reem Kufi";
           color: #FFFFFF;
           margin: 2px auto; }
@@ -941,7 +942,9 @@ footer {
           text-align: center; }
         main section .Safi-video .text .btn {
           margin: auto;
-          width: 100%; }
+          width: 100%; 
+          
+        }
           main section .Safi-video .text .btn input {
             width: 46%;
             background-color: #29819A;
