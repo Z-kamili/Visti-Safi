@@ -251,7 +251,7 @@ header #chk {
     margin-top: -10px; }
     .bg-image .image {
       width: 100%;
-      margin-top: 485px; }
+      margin-top: 493px; }
     .bg-image .image1 {
       width: 100%;
       margin-top: 10px; }
@@ -499,8 +499,7 @@ main {
         color: #674635; }
       main section .Safi-video .text .btn {
         float: right;
-        margin-top: 88px; 
-        width: 26%;      
+        margin-top: 88px;           
       }
         main section .Safi-video .text .btn input {
           width: 46%;
@@ -796,7 +795,7 @@ footer {
         justify-content: space-around; }
         main .Learn-More .cards .cart {
           width: 35%;
-          height: 300px;
+          height: 345px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -828,7 +827,7 @@ footer {
             margin: 2px auto; }
         main .Learn-More .cards .cart-2 {
           width: 35%;
-          height: 300px;
+          height: 337px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -860,7 +859,7 @@ footer {
             margin: 2px auto; }
         main .Learn-More .cards .cart-3 {
           width: 35%;
-          height: 300px;
+          height: 321px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -869,7 +868,7 @@ footer {
           main .Learn-More .cards .cart-3 .cart-image {
             width: 100%;
             height: 50%;
-            background-image: url("../img/img1.png");
+            background-image: url("../img/pottery.png");
             background-position: center;
             background-size: cover; }
             main .Learn-More .cards .cart-3 .cart-image .icon-player {
@@ -1166,7 +1165,7 @@ footer {
         justify-content: space-around; }
         main .Learn-More .cards .cart {
           width: 80%;
-          height: 300px;
+          height: 341px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -1198,7 +1197,7 @@ footer {
             margin: 2px auto; }
         main .Learn-More .cards .cart-2 {
           width: 80%;
-          height: 300px;
+          height: 341px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -1230,7 +1229,7 @@ footer {
             margin: 2px auto; }
         main .Learn-More .cards .cart-3 {
           width: 80%;
-          height: 300px;
+          height: 338px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           background-color: #FFFFFF;
           margin: auto;
@@ -1293,8 +1292,8 @@ footer {
           width: 100%;
           text-align: center; }
         main section .Safi-video .text .btn {
-          margin: auto;
-          width: 107%; }
+          margin: auto -32px;
+          width: 155%; }
           main section .Safi-video .text .btn input {
             width: 46%;
             background-color: #29819A;
