@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,11 +52,9 @@
 <div class="white-space white-spaceLarge"></div>
 <div class="container container-page">
     <div class="container-welcome">
-        <h1 class="small-text reveal">Bienvenue à</h1>
-        <p class="big-text reveal">La ville de la poterie</p>
-        <p class="desc-text reveal">La poterie de Safi est un style de poterie et céramique originaire de la ville côtière de Safi,
- célèbre au Maroc et dans le monde pour son style et la qualité de ses produits, 
-riches en couleurs et d'un design attrayant. </p>
+        <h1 class="small-text reveal"><?php echo $lang['title']?></h1>
+        <p class="big-text reveal"><?php echo $lang['pottery-title']?></p>
+        <p class="desc-text reveal"><?php echo $lang['pottery-desc']?> </p>
 
     </div>
 
@@ -64,7 +63,7 @@ riches en couleurs et d'un design attrayant. </p>
 <div class="Galery-inf">
 <h2 class="reveal">Doit découvrir des expériences</h2>
 <div class="border"></div>
-<p class="reveal">Safi est renommée au Maroc et dans le monde entier pour ses poteries et céramiques exceptionnelles. La terre de la colline du quartier des potiers est d'une argile d'excellente qualité. </p>
+<p class="reveal"><?php echo $lang['pottery-discover']?></p>
 </div>
 <div class="section">
 <div class="Galery-img">
@@ -174,17 +173,12 @@ Sed sagittis et urna non efficitur.</pre>
       <!-- <img class="icon-player" id="img-bg" src="format/img/playvideo.png"> -->
     </div>
     <div class="text">
-      <h3>Les Potter Hills
+      <h3><?php echo $lang['pottery-hills']?>
 </h3>
-      <p>Favorisée par une matière première abondante et bon marché, 
-la ville de Safi est naturellement devenue le chef-lieu de la poterie marocaine.
-La fameuse Colline des Potiers avec ses dizaines d'ateliers en est un témoignage vivant. 
-Tout dans la cité, évoque ou se rattache à la céramique. Ne manquez pas le très beau 
-Musée National de la Céramique où sont exposées des pièces uniques et historiques 
-retraçant l'histoire de cet artisanat ancestral.</p>
+      <p><?php echo $lang['pottery-hills-desc']?></p>
       <div class="btn">
-        <input type="submit" class="icon-player" value="<Prev">
-        <input type="submit" value="Next>">
+        <input type="submit" class="icon-player" value="<?php echo $lang['Prev']?>">
+        <input type="submit" value="<?php echo $lang['Next']?>">
       </div>
     </div>
   </div>
@@ -203,12 +197,12 @@ retraçant l'histoire de cet artisanat ancestral.</p>
 <img src="format/img/Potterie_img/hills-img1.png">
     </div>
     <div  class="container-hills2-des">
-        <h1 class="container-hills2-title">LES COLLINES DE POTERIE
+        <h1 class="container-hills2-title"><?php echo $lang['pottery-hills-title']?>
 </h1>
         <div class="line"></div>
           
         <div class="white-space"></div>
-        <p class="container-hills2-text">Le secteur de la poterie représente l'activité artisanale la plus importante et constitue un patrimoine culturel et touristique de la ville de Safi. Elle emploie près de 2 000 personnes de façon permanente et un grand nombre de saisonniers. Les principaux sites de production de poterie sont : la Colline des potiers, la vallée Chaâba, la village de Sidi Abderrahmane, la commune Saâdla, et la route Marrakech. A Safi, la poterie se localise principalement dans deux quartiers de la cité (la Colline des potiers et la vallée Chaâba) et un dans un village proche de la ville de Safi (le village de Sidi Abderrahmane).</p>
+        <p class="container-hills2-text"><?php echo $lang['The pottery hills']?></p>
 <div class="half-white-space"></div>
 <div class="allMaps Maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -217,7 +211,7 @@ retraçant l'histoire de cet artisanat ancestral.</p>
     
             <div class="circle" onclick="animate_maps('.Maps')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">Les collines de poterie</p>
+                <p class="container-hills2-spot-name"><?php echo $lang['pottery-hills-title']?></p>
                 <div class="straight_line"  >
                     <div class="line"></div>
                     <div class="line"></div>
@@ -252,10 +246,7 @@ retraçant l'histoire de cet artisanat ancestral.</p>
         <h1 class="container-hills2-title">Bab Cha'aba</h1>
         <div class="line"></div>
         <div class="white-space"></div>
-        <p class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port for centuries. Originally known as Asfi, the area was inhabited by Carthaginians, Romans and the 
-Almohades over time. Between 1508 and 1541, the Portuguese took over rule of Safi. This was then followed by Saadian occupation, which saw the construction of the 
-renowned Grand Mosque. After the Saadians came the Alawites. It later came under French control, until independence. Thus Safi has a vast and intriguing history, filled 
-with a variety of influences, each age contributing to the unique attractions in the city.</p>
+        <p class="container-hills2-text"><?php echo $lang['Babchaabadesc']?></p>
 <div class="half-white-space"></div>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-2">
@@ -296,15 +287,12 @@ with a variety of influences, each age contributing to the unique attractions in
 
     </div>
     <div  class="container-hills2-des">
-        <h1 class="container-hills2-title">VILLAGE DE POTERIE
+        <h1 class="container-hills2-title"><?php echo $lang['Pottery village']?>
         </h1>
         <div class="line"></div>
           
         <div class="white-space"></div>
-        <p class="container-hills2-text">Located on the shores of the Atlantic Ocean, Safi has been a vital port for centuries. Originally known as Asfi, the area was inhabited by Carthaginians, Romans and the 
-Almohades over time. Between 1508 and 1541, the Portuguese took over rule of Safi. This was then followed by Saadian occupation, which saw the construction of the 
-renowned Grand Mosque. After the Saadians came the Alawites. It later came under French control, until independence. Thus Safi has a vast and intriguing history, filled 
-with a variety of influences, each age contributing to the unique attractions in the city.</p>
+        <p class="container-hills2-text"><?php echo $lang['Potteryvillage-desc']?></p>
 <div class="half-white-space"></div>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-3">
@@ -312,7 +300,7 @@ with a variety of influences, each age contributing to the unique attractions in
 </div>
             <div class="circle" onclick="animate_maps('.Maps-3')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">VILLAGE DE POTERIE</p>
+                <p class="container-hills2-spot-name"><?php echo $lang['Pottery village']?></p>
                 <div class="straight_line"  >
                     <div class="line"></div>
                     <div class="line"></div>
@@ -333,13 +321,13 @@ with a variety of influences, each age contributing to the unique attractions in
 
 </div>
 <div class="Next-destination reveal">
-    <h4>notre prochaine destination
+    <h4><?php echo $lang['Destination']?>
  </h4>
     <div class="line" style="margin: auto;"></div>
     <div class="white-space"></div>
-    <h1>Essayez quelques sardines</h1>
+    <h1><?php echo $lang['Destination-desc']?></h1>
     <div class="white-space"></div>
-    <button><a class="discover" href="index.php?action=sardine">Découvrir</a></button>
+    <button><a class="discover" href="index.php?action=sardine"><?php echo $lang['Discover-desc']?></a></button>
 
 </div>
 <?php include 'include/footer.php'?>

@@ -15,10 +15,15 @@
     <i class="fas fa-ellipsis-h"></i>
     </label>
     <ul class="menu">
-      <a href="index.php?action=home">Accueil</a>
-      <a href="index.php?action=sardine">Poisson</a>
-      <a class="active" href="index.php?action=pottery">Poterie</a>
-      <a href="index.php?action=surf">Surf</a>
+      <a href="index.php?action=home"><?php echo $lang['Menu-home']?></a>
+      <a href="index.php?action=sardine"><?php echo $lang['Menu-fish']?></a>
+      <a class="active" href="index.php?action=pottery"><?php echo $lang['Menu-pottery']?></a>
+      <a href="index.php?action=surf"><?php echo $lang['Menu-surf']?></a>
+      <a> <select name="forma" onchange="location = this.options[this.selectedIndex].value;">
+        <option><?php echo $lang['Langue']?></option>
+          <option value="index.php?action=sardine&lang=en"><a href="index.php?action=home&lang=en"><?php echo $lang['lang_en']?></a></option>
+          <option value="index.php?action=sardine&lang=fr"><a href="index.php?action=home&lang=fr"><?php echo $lang['lang_fr']?></a></option>
+      </select></a>
       <label for="chk" class="hide-menu-btn">
         <i class="fas fa-times"></i>
       </label>

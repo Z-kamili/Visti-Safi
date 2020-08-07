@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,18 +30,16 @@
     <!-- The Title Of the page -->
     <div class="container container-page">
         <div class="container-welcome">
-            <p class="small-text">Bienvenue à</p>
-            <p class="big-text">La capitale de la sardine</p><br><br>
+            <p class="small-text"><?php echo $lang['title']?></p>
+            <p class="big-text"><?php echo $lang['title-sardine']?></p><br><br>
         </div>
     </div>
 
 <div class="container-page-down">
     <div class="container-page-down-des">
-         <p class="container-page-down--title">Nos meilleurs plats</p>
+         <p class="container-page-down--title"><?php echo $lang['title-discover']?></p>
          <div class="line"></div>
-         <p class="desc-text">Sardines au barbecue:
-c'est la meilleure façon de consommer les sardines.elles conservent tout leur apport nutritif en vitamines et et en oméga3.
-On peut les cuire vidés ou avec ou sans tete.
+         <p class="desc-text"><?php echo $lang['Sardine-discover']?>
 </p>       
     </div>
 
@@ -83,13 +82,9 @@ On peut les cuire vidés ou avec ou sans tete.
     <img class="icon-player" src="format/img/playvideo.png">
     </div>
     <div class="container-hills-des">
-        <h1 class="container-hills2-title">Sardines Port</h1>
+        <h1 class="container-hills2-title"><?php echo $lang['sardin-port']?></h1>
        
-        <p class="container-hills-des-text">Safi, deuxième port du Maroc, a un trafic général qui s'est élevé en 1963 à 2 877 568 tonnes, 
-très loin derrière celui de Casa¬ blanca, lequel atteignait à la même date 9 275 400 tonnes, 
-soit 70 % du total du trafic portuaire marocain estimé alors à 13 700 000 tonnes. 
-Mais le trafic de Safi dépasse largement celui de Kénitra, troisième port du Maroc, 
-qui totalise 600 000 tonnes à peine en 1963.</p>
+        <p class="container-hills-des-text"><?php echo $lang['sardin-port-desc']?></p>
  <div class="btn-2">
         <input type="submit" class="icon-player" onclick="Incrementer(-1)" value="<Prev">
         <input type="submit" onclick="Incrementer(1)" value="Next>">
@@ -115,25 +110,18 @@ qui totalise 600 000 tonnes à peine en 1963.</p>
 <img src="format/img/Sardine_img/sardine11.png" class="bg-img">
     </div>
     <div  class="container-hills2-des">
-        <h1 class="container-hills2-title">Sardines du marché </h1>
+        <h1 class="container-hills2-title"><?php echo $lang['sardine-market']?> </h1>
         <div class="line"></div>
           
         <div class="half-white-space"></div>
-        <p class="container-hills2-text">la sardine de safi est connue par sa grande qualité;c'est le plat le plus populaire des Safiots.
-Elle peut atteindre 25cm. Il vie entre les côtes Atlantique Marocaine et Européenne en zone pélagique côtière 
-de -15 à -35m de profondeur. Il se caractérise par :
-- un opercule strie.
-- des caches sombres sur le dos.
-- une carène ventrale peu aigue.
-- des écailles sessiles.
-- les deux derniers rayons de l’arête anale plus longs.</p>
+        <p class="container-hills2-text"><?php echo $lang['sardine-market-desc']?></p>
 <div class="half-white-space"></div>
 
         <div class="container-hills2-spot">
 
             <div class="circle" onclick="animate_maps('.Maps')"></div>
             <div class="container-hills2-spot-groupe">
-                <p class="container-hills2-spot-name">Port de la ville
+                <p class="container-hills2-spot-name"><?php echo $lang['sardine-market']?>
  </p>
                 <div class="straight_line"  >
                     <div class="line"></div>
@@ -173,15 +161,11 @@ de -15 à -35m de profondeur. Il se caractérise par :
 <div class="container-hills2">
     
     <div  class="container-hills2-des">
-        <h1 class="container-hills2-title">Essayez le barbecue de sardines </h1>
+        <h1 class="container-hills2-title"><?php echo $lang['sardine-BBQ']?> </h1>
         <div class="line"></div>
           
         <div class="half-white-space"></div>
-        <p class="container-hills2-text">Safi-Les habitants de la ville de Safi, toutes classes confondues, ont entretenu une longue histoire avec les sardines, une variété de poissons très prisée de par ses vertus et avantages nutritionnels au point de s’imposer comme un délice indispensable dans la table des Safiots durant l'année.
-
-En fait, la plupart des habitants de la cité de l’Océan apprécient la sardine à sa juste valeur et en font un plat hautement sollicité notamment, quand cette espèce de poissons pélagiques est grillée sur braséro et soigneusement servie avec des tranches de citrons et des lamelles d’oignon cru.
-
-Cette préférence pour la sardine fait que les Safiots en consomment au moins une fois par semaine et n’hésitent guère à y faire place sur les menus qu’ils proposent à leurs invités faisant ainsi de ce plat, abstraction faite de ses modes de cuisson et de préparation, une autre marque de l’hospitalité « made in Safi ».</p>
+        <p class="container-hills2-text"><?php echo $lang['sardine-bbq-desc']?></p>
 <div class="half-white-space"></div>
 <div class="images">
     <img src="format/img/Sardine_img/5201714104741.png" alt="">
@@ -230,12 +214,12 @@ Cette préférence pour la sardine fait que les Safiots en consomment au moins u
 
 </div>
 <div class="Next-destination">
-    <h4>Votre prochaine destination </h4><br>
+    <h4><?php echo $lang['Destination']?> </h4><br>
     <div class="line-2" style="margin: auto;"></div>
     <div class="white-space"></div>
-    <h1>Essayez quelques sardines</h1><br>
+    <h1><?php echo $lang['Destination-desc']?></h1><br>
     <div class="white-space"></div>
-    <button><a href="index.php?action=pottery" class="btn">Découvrir</a></button>
+    <button><a href="index.php?action=pottery" class="btn"><?php echo $lang['Discover-desc']?></a></button>
 </div>
 <?php include 'include/footer.php'?>
 <script src="format/js/main.js"></script>

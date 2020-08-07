@@ -107,7 +107,9 @@
             color: #9E6345; }
            section .Safi-video .text .btn {
             float: right;
-            margin-top: 88px; }
+            margin-top: 88px; 
+            width: 25%;          
+          }
              section .Safi-video .text .btn input {
               width: 46%;
               background-color: #29819A;

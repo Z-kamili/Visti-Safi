@@ -1,6 +1,5 @@
 <!-- router -->
-
-
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,29 +26,22 @@
 
     <section class="Welcom-safi ">
 
-        <h1 class="reveal">Bienvenue à</h1>
+        <h1 class="reveal"><?php echo $lang['title']?></h1>
         <div class="title reveal">
           <h1>SAFI</h1>   
         </div>
         <p class="reveal">
-        Enracinée dans l'histoire, Safi fut le théatre des remour et de fluctuations
-          tout au long de son histoire.
-          Havre de navigation, Carrefour de différents civilisations, Safi la iancés de l'oceon
-          viendra aujourd'hui voudrait diffuser sa grandeur  et sa gloire.
-          Pour parler de l'Histoire, il y a peut d'écrit sur la naissance de Safi car on sait peu de choses sur ses origines Comptoir Phénicien
-          - S'il faut croire le géographe Ptolémée - probablement fréquentée plus tard par les Romains, elle apparaît dans les textes arabes sous le nom d'Asfi,
-           à partir du 11ème siècle, c'est alors un petit port d'intérêt local.
+        <?php echo $lang['desc-home']?>
         </p>
 
     </section>
     <div class="marg"></div>
     <section class="Galery-Safi">
 <div class="Galery-inf reveal">
-<h2>Doit découvrir des expériences
+<h2><?php echo $lang['title-discover']?>
 </h2>
 <div class="border"></div>
-<p>La ville, très étendue pour sa population, est sans grand charme ;
-      Envie de découvrir Safi ? Il y a mille et une façons de le vivre. Espérons que vous n’allez pas vous perdre entre le passé et le présent, Safi est une ville historique gardant toutes ses infrastructures historiques qui vous redirige dans le passé, en dépit de toutes ces richesses historiques Safi offre aux visiteurs le triple avantage d'être à la fois une cité au passé chargé d'histoire, une cité vivante et active grâce à son port marchand.</p>
+<p><?php echo $lang['desc-discover']?></p>
 </div>
 <div class="section">
 <div class="Galery-img">
@@ -62,22 +54,13 @@
     </section>
     <div class="marg"></div>
 <section class="city-safi reveal ">
-    <h2>La ville</h2>
+    <h2><?php echo $lang['title-city']?></h2>
     <div class="border"></div>
-    <p>En arabe Aṣfī, chef-lieu de la province administrative de Marrakech-Safi,
-         au Maroc, situé sur la côte atlantique,
-        au fond d'une baie assez mal abritée. Ancien ribạ̄t fortifié du XIVe siècle,
-         place forte portugaise de 1508 à 1541, Safi a conservé des fortifications de cette époque.
-        Elle a surtout eu un rôle de port dans l'histoire et a connu une période de prospérité
-        au XVIIe siècle comme débouché maritime de Marrakech avant que Mogador ne la concurrence.
-        Ville modeste jusqu'au début du XXe siècle, elle a connu ensuite une expansion rapide,
-        passant de 56 000 habitants en 1952 à 284 750 lors du recensement de 2004.
-         Ses fonctions sont variées. Port de pêche actif pour la sardine, port de commerce exportant
-        des phosphates et des produits dérivés</p>
+    <p><?php echo $lang['Desc_city']?></p>
 </section>
 <div class="marg"></div>
 <section class="Learn-More reveal">
-    <h2>encore plus
+    <h2><?php echo $lang['title-section']?>
 </h2>
     <div class="border"></div>
     <div class="cards">
@@ -87,7 +70,7 @@
             </div>
             <!-- <img class="cart-img-top" src="format/img/image2-1.png" alt="Card image cap"> -->
             <div class="cart-body">
-                <h3>Fish</h3>
+                <h3><?php echo $lang['title-fish']?></h3>
               <p class="cart-text reveal">Sardines au barbecue:
 c'est la meilleure façon de consommer les sardines.elles conservent tout leur apport nutritif</p>
             </div>
@@ -99,7 +82,7 @@ c'est la meilleure façon de consommer les sardines.elles conservent tout leur a
             </div>
             <!-- <img class="cart-img-top" src="format/img/image2-1.png" alt="Card image cap"> -->
             <div class="cart-body">
-                <h3>Surf</h3>
+                <h3><?php echo $lang['title-Surf']?></h3>
               <p class="cart-text reveal">Plongée par les vagues de l'océan Atlantique, Safi est une ville balnéaire où un séjour agréable est garanti</p>
             </div>
             <input type="submit" value="encore plus">
@@ -110,7 +93,7 @@ c'est la meilleure façon de consommer les sardines.elles conservent tout leur a
             </div>
             <!-- <img class="cart-img-top" src="format/img/image2-1.png" alt="Card image cap"> -->
             <div class="cart-body">
-                <h3>potery</h3>
+                <h3><?php echo $lang['title-Pottery']?></h3>
               <p class="cart-text reveal">Il est signé "Safi" au dos. Safi, c'est le nom d'une ville côtière où la majeure partie de la poterie marocaine</p>
             </div>
             <input type="submit" value="encore plus">
@@ -135,7 +118,7 @@ c'est la meilleure façon de consommer les sardines.elles conservent tout leur a
 </section>
 <div class="marg"></div>
 <section>
-<h1 class="reveal">Safi en mouvement
+<h1 class="reveal"><?php echo $lang['Safi-Motion']?>
 </h1>
 <div class="bg-chateau reveal">
 <img class="icon-player-2" id="img-bg" src="format/img/playvideo.png">
@@ -149,37 +132,37 @@ c'est la meilleure façon de consommer les sardines.elles conservent tout leur a
       <img class="icon-player" id="img-bg-2">
     </div>
     <div class="text">
-      <h3 class="title-2 reveal">Chateau de Mere</h3>
-      <p class="text-2 reveal">Ksar el-Bahr, "château de mer", est une forteresse élevée par les portugais au XVIème siècle. Elle offre une superbe vue sur l'océan d’un côté et sur la médina de Safi de l’autre. Le claquement des vagues à marée haute contre la muraille fait partie de la sérénité et de la beauté du paysage certes mais affaiblit et menace le soubassement des remparts.</p>
+      <h3 class="title-2 reveal"><?php echo $lang['Safi-Motion']?></h3>
+      <p class="text-2 reveal"><?php echo $lang['description']?></p>
       <div class="btn">
-        <input type="submit" class="icon-player" onclick="Incrementer(-1)" value="<Prev">
-        <input type="submit" onclick="Incrementer(1)" value="Next>">
+        <input type="submit" class="icon-player" onclick="Incrementer(-1)" value="<?php echo $lang['Prev']?>">
+        <input type="submit" onclick="Incrementer(1)" value="<?php echo $lang['Next']?>">
       </div>
     </div>
   </div>
 </section>
 <div class="marg"></div>
 <section class="reveal">
-  <h2 class="title">Nous contacter</h2>
+  <h2 class="title"><?php echo $lang['Contact']?></h2>
     <div class="border"></div>
   <div class="Contact">
     <div class="bg-image">
       
     </div>
    <form action="index.php?action=home" method="post">
-     <div  class="div-text">Nom :</div>
+     <div  class="div-text"><?php echo $lang['Contact-name']?></div>
      <div class="div-inpt">
       <input type="text" name="name">
      </div>
-     <div class="div-text">Email:</div>
+     <div class="div-text"><?php echo $lang['Contact-Desc']?></div>
      <div class="div-inpt">
       <input type="text" name="email">
      </div>
-     <div class="div-text">Message : </div>
+     <div class="div-text"><?php echo $lang['Contact-message']?></div>
      <div class="div-inpt">
       <textarea name="Message" ></textarea>
      </div>
-     <input type="submit" value="Subscribe">
+     <input type="submit" value="<?php echo $lang['Subscribe']?>">
    </form>
     </div>
 </section>
