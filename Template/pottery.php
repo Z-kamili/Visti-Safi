@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="descriptison">
     <meta content="" name="keywords">  
-  
     <link href="format/css/style.css" rel="stylesheet">
     <link href="format/css/potterie.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">

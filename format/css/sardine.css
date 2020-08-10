@@ -2,7 +2,7 @@
   background-image: url("../img/Sardine_img/cover.png") !important;
   width: 100%;
   height: 650px ;
-  background-position-y: -290px;
+  /* background-position-y: -290px; */
   background-repeat: no-repeat;
 }
 .bg-design1 
@@ -199,6 +199,15 @@ a:hover{
   text-align: center;
   font-size: 75px;
 }
+.reveal{
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.reveal-visible{
+  opacity:1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
 .container-page .small-text
 {
   font-family: "Reem Kufi";
@@ -264,6 +273,8 @@ a:hover{
   display: flex;
 }
 
+
+
 .groupe_all
 {
   background-image: url("../img/Potterie_img/Groupe_all.svg") !important;
@@ -294,6 +305,7 @@ a:hover{
   background-size: cover;
   margin-left: -340px;
   margin-top: -80px;
+  background-position-x: center;
 }
 .container-hills2-des{
   width: 50%;
@@ -379,5 +391,176 @@ a:hover{
   height: 40px;
 
 }
+
+@media screen and (max-width: 1030px) {
+.bg-img{
+  display: none;
+}
+  .container-page .small-text {
+    font-family: "Reem Kufi";
+    color: #2D7C92 !important;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 105px;
+}
+.container-hills2-title {
+  color: #029CC7;
+  font-size: 25px;
+}
+.container-page .big-text {
+  font-family: "Claytonia";
+  color: #2D7C92 !important;
+  text-align: center;
+  font-size: 75px;
+}
+.container-page-down-des {
+  width: 100% !important;
+  padding: 0px !important;
+  text-align: center;
+}
+.container-page-down--title {
+  color: #2D7C92;
+  font-size: 15px;
+}
+.Galery-inf h2 {
+  text-align: center;
+  font-size: 15px !important;
+}
+.line{
+  margin: 0;
+  margin-bottom: 20px;
+  width: 145px;
+  height: 2px;
+  background-color: #3B8499;
+  /* text-align: center; */
+  margin: 20px auto;
+}
+.section {
+  margin-top: 30px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  overflow-x: auto;
+}
+.section .Galery-img .image:hover{
+  transform: none;
+  transition:none;
+}
+.container-hills{
+  display: block;
+}
+.container-hills-video {
+  background-image: url(../img/Sardine_img/SardineVideo.png) !important;
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+}
+.container-page-down-img div{
+  margin: auto 15px;
+}
+.container-hills-des {
+  width: 100% !important;
+  height: 200px !important;
+  word-break: break-all;
+  margin: 39px auto;
+  text-align: center;
+}
+.line {
+  margin: 0;
+  margin-bottom: 20px;
+  width: 34%;
+  height: 2px;
+  background-color: #3B8499;
+  /* text-align: center; */
+  margin: 20px auto;
+}
+.bg-design1 {
+  background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+  background-size: cover;
+  background-position: 50%;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  margin-top: 176px;
+}
+.container-hills2 {
+  width: 100% !important;
+  display: block;
+}
+.bg-img {
+  /* width: 237%; */
+  /* width: 219px; */
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.container-hills2-pic1{
+  width: 134% !important;
+}
+.bg-image {
+  background-image: url(../img/Sardine_img/cover.png) !important;
+  width: 100%;
+  height: 650px;
+  /* background-position-y: -290px; */
+  background-repeat: no-repeat;
+}
+.icon-player {
+  width: 10%;
+  margin-top: 100px;
+  text-align: center;
+  /* margin-left: 173px; */
+  display: block;
+  margin: auto;
+  padding-top: 121px;
+}
+.btn-2 {
+  /* float: right; */
+  width: 50%;
+  /* text-align: center; */
+  margin:72px auto;
+  float: inherit;
+}
+.images-img {
+  margin: 20px auto;
+}
+.btn-2 input{
+display: inline;
+}
+
+.container-hills2-des {
+text-align: center;
+    margin: auto;
+}
+
+
+}
+@media screen and (max-width: 500px) {
+
+  .btn-2 {
+    /* float: right; */
+    width: 50%;
+    /* text-align: center; */
+    margin: 181px auto;
+    float: inherit;
+}
+
+.bg-design1 {
+  background-image: url(../img/Potterie_img/Potterie_img_whitetopbg.svg) !important;
+  background-size: cover;
+  background-position: 50%;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  margin-top: 225px;
+}
+
+
+
+
+}
+
+
 
 

@@ -91,6 +91,10 @@ header .chateau-mere img {
           font-family: 'Reem Kufi';
           color: black;
           text-decoration: none; }
+          .bg-image .image {
+            width: 100%;
+            margin-top: 470px !important;
+          }  
        
     .bg-image {
       background-image: url("../img/Potterie_img/bg-potterie.png");
@@ -161,7 +165,8 @@ header .chateau-mere img {
       background-position-x: -303px; }
       .bg-image .image {
         width: 100%;
-        margin-top: 520px; }
+        margin-top: 547px !important;
+    }
       .bg-image .image1 {
         width: 100%;
         margin-top: 10px; }

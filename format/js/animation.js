@@ -36,3 +36,4 @@ function animate_maps_surf(classe){
     }
 
 }
+

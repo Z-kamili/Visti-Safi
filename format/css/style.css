@@ -49,6 +49,9 @@ header .header {
   left: 128px;
   position: fixed;
   z-index: 2; }
+  .hide{
+    transform: translateY(-100%);
+  }
   header .header .div_logo .logo {
     float: right;
     margin-top: 10px;
@@ -201,7 +204,37 @@ header #chk {
       .bg-image .img-header .image2 {
         position: absolute;
         top: 327px;
-        display: none; } }
+        display: none; } 
+        .groupe_all {
+          background-image: url(../img/Potterie_img/Groupe_all.svg) !important;
+          background-size: cover;
+          width: 100%;
+          height: 420px;
+          padding-left: 15px;
+          padding-right: 15px;
+          background-position-x: center;
+      }
+      .container-hills2-pic2 {
+        background-image: url(../img/Sardine_img/sardineBQ-removebg-preview.png) !important;
+        width: auto;
+        height: 470px;
+        background-size: cover;
+        margin-left: -340px;
+        margin-top: -80px;
+    }
+    .image-test{
+      margin: 40px auto;
+    }
+    .circle {
+      width: 38px;
+      height: 30px;
+      /* border-radius: 50%; */
+      /* background-color: #029CC7; */
+      background-image: url(../img/Potterie_img/Location.png);
+      background-repeat: no-repeat;
+  }
+      
+      }
 @media screen and (max-width: 750px) {
   header .chateau-mere img {
     width: 100%;

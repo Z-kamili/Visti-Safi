@@ -29,13 +29,13 @@
 
     <!-- The Title Of the page -->
     <div class="container container-page">
-        <div class="container-welcome">
+        <div class="container-welcome reveal">
             <p class="small-text"><?php echo $lang['title']?></p>
             <p class="big-text"><?php echo $lang['title-sardine']?></p><br><br>
         </div>
     </div>
 
-<div class="container-page-down">
+<div class="container-page-down reveal">
     <div class="container-page-down-des">
          <p class="container-page-down--title"><?php echo $lang['title-discover']?></p>
          <div class="line"></div>
@@ -62,12 +62,15 @@
         </div>
     </div> -->
     <div class="section">
+<div class="section reveal">
 <div class="Galery-img">
 <div class="reveal reveal-image"> <img class="image" src="format/img/Sardine_img/IMG_9576.png"></div>
 <div class="reveal reveal-image"> <img class="image" src="format/img/img1-2.png"></div>
 <div class="reveal reveal-image"> <img class="image" src="format/img/fish.png"></div>
 </div>
 </div>
+    </div>
+
 
    </div>
 
@@ -77,7 +80,7 @@
   -->
 
   <!-- Video -->
-<div class="container-hills">
+<div class="container-hills reveal">
     <div class="container-hills-video">
     <img class="icon-player" src="format/img/playvideo.png">
     </div>
@@ -105,7 +108,7 @@
 </div>
 
 
-<div class="container-hills2">
+<div class="container-hills2 reveal">
     <div class="container-hills2-pic1">
 <img src="format/img/Sardine_img/sardine11.png" class="bg-img">
     </div>
@@ -158,7 +161,7 @@
 </div>
 
 
-<div class="container-hills2">
+<div class="container-hills2 reveal">
     
     <div  class="container-hills2-des">
         <h1 class="container-hills2-title"><?php echo $lang['sardine-BBQ']?> </h1>
@@ -169,7 +172,7 @@
 <div class="half-white-space"></div>
 <div class="images">
     <img src="format/img/Sardine_img/5201714104741.png" alt="">
-    <img src="format/img/Sardine_img/hqdefault-3.png" alt="">
+    <img src="format/img/Sardine_img/hqdefault-3.png" class="images-img" alt="">
     <img src="format/img/Sardine_img/68478762_1306642516149886_8300367261248520192_n.png" alt="">
 </div>
         <div class="container-hills2-spot">
@@ -213,7 +216,7 @@
 <div class="bg-design2-blue">
 
 </div>
-<div class="Next-destination">
+<div class="Next-destination reveal">
     <h4><?php echo $lang['Destination']?> </h4><br>
     <div class="line-2" style="margin: auto;"></div>
     <div class="white-space"></div>
