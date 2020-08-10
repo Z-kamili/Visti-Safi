@@ -455,9 +455,9 @@ a:hover{
   height: 320px;
   background-size: cover;
 }
-.container-page-down-img div{
+/* .container-page-down-img div{
   margin: auto 15px;
-}
+} */
 .container-hills-des {
   width: 100% !important;
   height: 200px !important;
