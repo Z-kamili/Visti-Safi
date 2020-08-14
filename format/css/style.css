@@ -129,6 +129,7 @@ header #chk {
   header .chateau-mere img {
     width: 100%;
     margin-top: -90px; }
+
   header .header {
     width: 80%;
     height: 30px;
@@ -154,6 +155,7 @@ header #chk {
       /* top: -2px; */
       text-align: center;
       margin: 6px 0px; }
+      
       header .header nav a {
         padding: 5px;
         font-family: 'Reem Kufi';
@@ -1090,6 +1092,7 @@ footer {
     margin-top: -3px; }
 
   .modal-content2 iframe {
+    
     width: 90%; }
 
   .modal-content2 .form a:hover {

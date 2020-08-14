@@ -317,8 +317,14 @@
 {
   display: flex;
   width:80% !important;
- margin:100px  auto;
+  margin:100px  auto;
 
+}
+iframe {
+  height: 235px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 48px;
 }
 .container-hills2-des
 {
@@ -344,59 +350,57 @@
 .circle:hover{
   cursor: pointer;
 }
-iframe{
+/* iframe{
   border: 0;
-  /* margin-top: -11px; */
   height: -webkit-fill-available;
-  /* width: 115%; */
   margin: auto;
-}
-.Maps{
+} */
+/* .Maps{ */
      /* margin-right: 26px; */
     /* margin-right: 26px; */
     /* margin-left: -127px; */
-    position: absolute;
+    /* position: absolute; */
     /* margin-top: -257px; */
-    width: 23%;
+    /* width: 23%;
     height: 257px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; */
     /* margin: -257px 0px 0px; */
-    justify-content: center;
+    /* justify-content: center;
     top: 92%;
     left: 20%;
     display: none;
-    z-index: 1;
-}
-.Maps-2{
+    z-index: 1; */
+/* } */
+/* .Maps-2{ */
      /* margin-right: 26px; */
     /* margin-right: 26px; */
     /* margin-left: -127px; */
-    position: absolute;
+    /* position: absolute; */
     /* margin-top: -257px; */
-    width: 23%;
+    /* width: 23%;
     height: 239px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; */
     /* margin: -257px 0px 0px; */
-    justify-content: center;
+    /* justify-content: center;
     top: 75%;
     left: 20%;
-    display: none;
-}
+    display: none; */
+/* } */
 .Maps-2-iframe{
-  border: 0;
-  /* height: -webkit-fill-available; */
-  margin: 0px 0px 0px -126px;
-  /* height: 86px;*/
+  height: 235px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 48px;
 }
-.Maps-3{
-  margin-right: 26px;
+/* .Maps-3{ */
+  /* margin-right: 26px; */
     /* margin-right: 26px; */
     /* margin-left: -127px; */
-    position: absolute;
+    /* position: absolute; */
     /* margin-top: -257px; */
-    width: 23%;
+    /* width: 23%;
     height: 263px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #FFFFFF;
@@ -404,14 +408,13 @@ iframe{
     justify-content: center;
     top: 31%;
     left: 20%;
-    display: none;
-}
+    display: none; */
+/* } */
 .Maps-3-iframe{
-  border: 0;
-  /* margin-top: -11px; */
-  height: -webkit-fill-available;
-  /* width: 115%; */
-  margin: 0px auto -7px -180px;
+  height: 235px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 48px;
 }
 .container-hills2-spot
 {
@@ -527,6 +530,15 @@ width: 100%;
     height:65px;
     background-color: white;
   }
+  iframe {
+    height: 235px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 48px;
+    width: 100%;
+    right: 50%;
+    left: 0%;
+  }
   .container-page-down
   {
     display: block;
@@ -541,6 +553,24 @@ width: 100%;
     width:10%;
     margin:auto;
 
+  }
+  .Maps-2-iframe{
+    height: 235px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 48px;
+    width: 100%;
+    right: 50%;
+    left: 0%;
+  }
+  .Maps-3-iframe{
+    height: 235px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 48px;
+    width: 100%;
+    right: 50%;
+    left: 0%;
   }
   .container-page-down pre
   {

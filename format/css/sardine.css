@@ -403,6 +403,15 @@ a:hover{
     font-size: 35px;
     margin-top: 105px;
 }
+.circle
+{
+  width: 70px !important;
+  height: 30px;
+  /* border-radius: 50%; */
+  /* background-color: #029CC7; */
+  background-image: url(../img/Potterie_img/Location.png);
+  background-repeat: no-repeat;
+}
 .container-hills2-title {
   color: #029CC7;
   font-size: 25px;
@@ -455,9 +464,6 @@ a:hover{
   height: 320px;
   background-size: cover;
 }
-/* .container-page-down-img div{
-  margin: auto 15px;
-} */
 .container-hills-des {
   width: 100% !important;
   height: 200px !important;
@@ -531,6 +537,14 @@ display: inline;
 .container-hills2-des {
 text-align: center;
     margin: auto;
+}
+iframe{
+    height: 235px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    right: 50%;
+    left: 0%;
 }
 
 
