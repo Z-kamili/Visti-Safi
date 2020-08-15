@@ -29,7 +29,7 @@ function animate_maps(classe){
 function animate_maps_surf(classe){
   let x = document.getElementsByClassName(classe)[0];
 // console.log("dssdffsd");
-    if (window.getComputedStyle(x).display === "none"){
+    if(window.getComputedStyle(x).display === "none"){
       x.style.display = "block";
     }else{
      x.style.display = "none";

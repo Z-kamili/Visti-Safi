@@ -20,6 +20,9 @@
   margin-top: -29px;
  
 }
+.Maps-3,.Maps-2,.Maps{
+  display: none;
+}
 .bg-design2
 {
   background-image: url("../img/Potterie_img/bg-design2.svg") !important;
@@ -388,12 +391,12 @@ iframe {
     left: 20%;
     display: none; */
 /* } */
-.Maps-2-iframe{
+/* .Maps-2-iframe{
   height: 235px;
   z-index: 1;
   position: absolute;
   margin-top: 48px;
-}
+} */
 /* .Maps-3{ */
   /* margin-right: 26px; */
     /* margin-right: 26px; */
@@ -410,12 +413,12 @@ iframe {
     left: 20%;
     display: none; */
 /* } */
-.Maps-3-iframe{
+/* .Maps-3-iframe{
   height: 235px;
   z-index: 1;
   position: absolute;
   margin-top: 48px;
-}
+} */
 .container-hills2-spot
 {
   display: flex;
@@ -554,8 +557,8 @@ width: 100%;
     margin:auto;
 
   }
-  .Maps-2-iframe{
-    height: 235px;
+  /* .Maps-2-iframe{ */
+    /* height: 235px;
     z-index: 1;
     position: absolute;
     margin-top: 48px;
@@ -571,7 +574,7 @@ width: 100%;
     width: 100%;
     right: 50%;
     left: 0%;
-  }
+  } */
   .container-page-down pre
   {
     text-align: center;

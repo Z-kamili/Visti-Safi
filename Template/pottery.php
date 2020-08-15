@@ -250,7 +250,7 @@ Sed sagittis et urna non efficitur.</pre>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-2">
 <!-- <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
-<iframe class="Maps-2-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.683147116299!2d-9.24535868485546!3d32.29349578112064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac2143c51b03a3%3A0xfd24c3fa93fb55e7!2sBab%20chaaba%20Safi!5e0!3m2!1sfr!2sma!4v1594749675343!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.683147116299!2d-9.24535868485546!3d32.29349578112064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac2143c51b03a3%3A0xfd24c3fa93fb55e7!2sBab%20chaaba%20Safi!5e0!3m2!1sfr!2sma!4v1594749675343!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
             <div class="circle" onclick="animate_maps('.Maps-2')">
             </div>
@@ -295,7 +295,7 @@ Sed sagittis et urna non efficitur.</pre>
 <div class="half-white-space"></div>
         <div class="container-hills2-spot">
 <div class="allMaps Maps-3">
-<iframe class="Maps-3-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.4350087346256!2d-9.24158568485522!3d32.30016498111859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21260200a3e7%3A0xc55a63db15955f1c!2sPoterie%20Serghini%20-%20Safi%20-%20Morocco!5e0!3m2!1sfr!2sma!4v1594741048887!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
             <div class="circle" onclick="animate_maps('.Maps-3')"></div>
             <div class="container-hills2-spot-groupe">
