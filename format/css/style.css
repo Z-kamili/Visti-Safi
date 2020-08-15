@@ -501,6 +501,9 @@ main {
     top: 45%;
     left: 45%;
     width: 104px; }
+    .error{
+      color: red;
+    }
   main section .icon-player-2 {
     cursor: pointer; }
   main section #img-bg-2 {
@@ -1094,6 +1097,7 @@ footer {
   .modal-content2 iframe {
     
     width: 90%; }
+
 
   .modal-content2 .form a:hover {
     cursor: pointer; } }

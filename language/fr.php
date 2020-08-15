@@ -64,5 +64,8 @@ $lang = array(
     Almohades au fil du temps. Entre 1508 et 1541, les Portugais ont repris le règne de Safi. Cela a ensuite été suivi par l'occupation saadienne, qui a vu la construction de la
     célèbre grande mosquée. Après les Saadiens sont venus les Alaouites. Il passa plus tard sous contrôle français, jusqu'à l'indépendance. Ainsi Safi a une histoire vaste et intrigante, remplie
     avec une variété d'influences, chaque âge contribuant aux attractions uniques de la ville.",
+    "nameerror" =>"Erreur dans nom",
+    "emailerror" =>"Erreur dans l'e-mail",
+    "Messageerror"=>"Erreur dans le message",
 );
 ?>

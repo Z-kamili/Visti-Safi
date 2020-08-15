@@ -97,6 +97,8 @@ $lang = array(
   Almohades over time. Between 1508 and 1541, the Portuguese took over rule of Safi. This was then followed by Saadian occupation, which saw the construction of the 
   renowned Grand Mosque. After the Saadians came the Alawites. It later came under French control, until independence. Thus Safi has a vast and intriguing history, filled 
   with a variety of influences, each age contributing to the unique attractions in the city.",
-
+  "nameerror" =>"Error in name",
+  "emailerror" =>"Error in email",
+  "Messageerror"=>"Error in Message",
 );
 ?>

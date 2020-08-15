@@ -1,5 +1,73 @@
 <!-- router -->
 <?php include('config.php'); ?>
+<?php
+use PhPMailer\PHPMailer\PHPMailer;
+use PhPMailer\PHPMailer\Exception;
+require 'PHPMailer/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+$name = $email = $Message = $error = $nameerror = $emailerror = $Messageerror = "";
+$mail = new PHPMailer;
+//SMTP configuration
+if(!empty($_POST)){
+
+  $name = checkInput($_POST["name"]);
+  $email = checkInput($_POST["email"]);
+  $Message = checkInput($_POST["Message"]);
+
+  if(!empty($name) && (!empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) && !empty($Message)){
+    $mail->isSMTP();
+    $mail->Host = "smtp.gmail.com";
+    $mail->SMTPAuth = true;
+    $mail->Username = "zm011476@gmail.com";
+    $mail->Password = "safi1928";
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
+    
+    $mail->setFrom('ZakariaKamili97@gmail.Com','VisitSafi');
+    $mail->addAddress($email);
+    
+    $mail->Subject = "Send Email via SMTP using PHPMailer";
+    
+    $mail->isHTML(true);
+    // $mail->SMTPDebug = 3;
+    
+    $mailContent = '<p> '. $Message . '</p>';
+    $mail->Body = $mailContent;
+    $mail->send();
+    
+    // if(!$mail->send()){
+    
+    //   $error =  'Message could not be sent';
+    
+    // }else{
+    //   echo 'Message has been sent';
+    // }
+
+  }else{
+    if(empty($name)){
+      $nameerror = $lang['nameerror'];
+    }
+    if(empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)){
+      $emailerror = $lang['emailerror'];
+    }
+    if(empty($Message)){
+
+      $Messageerror = $lang['Messageerror'];
+
+    }
+  }
+
+
+}
+
+function checkInput($data){
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,19 +217,22 @@ c'est la meilleure façon de consommer les sardines.elles conservent tout leur a
     <div class="bg-image">
       
     </div>
-   <form action="index.php?action=home" method="post">
+   <form action="index.php?action=home" method="post" name="send">
      <div  class="div-text"><?php echo $lang['Contact-name']?></div>
      <div class="div-inpt">
       <input type="text" name="name">
      </div>
+     <div> <span class="error"><?php echo $nameerror ?></span> </div>
      <div class="div-text"><?php echo $lang['Contact-Desc']?></div>
      <div class="div-inpt">
       <input type="text" name="email">
      </div>
+     <div> <span class="error"><?php echo $emailerror ?></span> </div>
      <div class="div-text"><?php echo $lang['Contact-message']?></div>
      <div class="div-inpt">
       <textarea name="Message" ></textarea>
      </div>
+     <div> <span class="error"><?php echo $Messageerror ?></span> </div>
      <input type="submit" value="<?php echo $lang['Subscribe']?>">
    </form>
     </div>
